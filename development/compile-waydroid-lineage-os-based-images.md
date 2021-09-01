@@ -1,4 +1,4 @@
-# Compile Waydroid Lineage OS based images
+# Compile Waydroid - Lineage OS based images
 
 ## Getting started
 

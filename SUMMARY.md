@@ -4,7 +4,7 @@
 
 ## Development
 
-* [Compile Waydroid Lineage OS based images](development/compile-waydroid-lineage-os-based-images.md)
+* [Compile Waydroid - Lineage OS based images](development/compile-waydroid-lineage-os-based-images.md)
 
 ## Usage
 
