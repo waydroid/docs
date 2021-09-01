@@ -12,7 +12,7 @@ The Android runtime environment ships with a minimal customized Android system i
 
 ## Index
 
-Install and Run Android Applications
+[Install and Run Android Applications](install-and-run-android-applications.md)
 
 ## Reporting bugs
 
