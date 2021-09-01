@@ -12,11 +12,11 @@ The Android runtime environment ships with a minimal customized Android system i
 
 ## Index
 
-####      Development:
+#### Development:
 
 [Compile Waydroid - Lineage OS based images](development/compile-waydroid-lineage-os-based-images.md)
 
-####      Usage
+#### Usage
 
 [Install and Run Android Applications](usage/install-and-run-android-applications.md)
 
