@@ -50,6 +50,15 @@ apply-waydroid-patches
 
 Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building environment setup.
 
+#### Waydroid AOSP Lunch Options
+
+Lineage OS:
+
+`lineage_waydroid_arm-userdebug  
+lineage_waydroid_arm64-userdebug  
+lineage_waydroid_x86-userdebug  
+lineage_waydroid_x86_64-userdebug`
+
 To build Waydroid:
 
 ```text
