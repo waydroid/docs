@@ -54,7 +54,7 @@ To build Waydroid:
 
 ```text
 . build/envsetup.sh
-lunch lineage_anbox_arm64-userdebug
+lunch lineage_waydroid_arm64-userdebug
 make systemimage -j$(nproc --all)
 make vendorimage -j$(nproc --all)
 ```
