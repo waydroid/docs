@@ -52,7 +52,7 @@ Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building enviro
 
 #### Waydroid AOSP Lunch Options
 
-Lineage OS:
+AOSP Lunch Options::
 
 ```text
 lineage_waydroid_arm-userdebug
