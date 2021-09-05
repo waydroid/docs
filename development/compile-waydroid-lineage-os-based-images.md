@@ -58,3 +58,13 @@ make systemimage -j$(nproc --all)
 make vendorimage -j$(nproc --all)
 ```
 
+## Troubleshooting
+
+To manually regenerate the local\_manifests, we also have added a function to do so:
+
+```text
+waydroid-generate-manifest
+```
+
+After doing that you will want to resync \(this will wipe out any local changes, so make sure you save your work to a different branch\)
+
