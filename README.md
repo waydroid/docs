@@ -28,3 +28,7 @@ If you have found an issue with Waydroid, please [file a bug](https://github.com
 
 If you want to get in contact with the developers please feel free to join the _WayDroid_ groups in [Matrix](https://matrix.to/#/#waydroid:connolly.tech) or [Telegram](https://t.me/WayDroid).
 
+## Credits
+
+We'd like to say thanks to all these great teams: @Anbox @LineageOS @Android-x86 and many others, for you still lead the way for Open Innovation in the Android community.
+
