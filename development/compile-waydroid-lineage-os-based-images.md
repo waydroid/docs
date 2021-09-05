@@ -60,7 +60,9 @@ make vendorimage -j$(nproc --all)
 
 ## Troubleshooting
 
-To manually regenerate the local\_manifests, we also have added a function to do so:
+#### Local Manifest:
+
+To manually regenerate the local\_manifests, we also have added a function to do so
 
 ```text
 waydroid-generate-manifest
