@@ -41,9 +41,9 @@ After applying the patch\(s\) to your local project folder, remember to generate
 git format-patch -1
 ```
 
-Then copy the patch to the appropriate vendor folder for the conflict. Any patches that are needed to be done to the ROM before applying the generic set of patches will go to the prepatch folder \(pc\_vendor\_prepatches/treble\_vendor\_prepatches\), while any conflicts that happened from the generic patches themselves should go to the vendor\_patches folder \(pv\_vendor\_patches/treble\_vendor\_patches\) Example:
+Then copy the patch to the appropriate vendor folder for the conflict. Any patches that are needed to be done to the ROM before applying the base set of patches will go to the prepatch folder \(pc\_vendor\_prepatches/treble\_vendor\_prepatches\), while any conflicts that happened from the base patches themselves should go to the /waydroid-patches/roms-patches/your-rom-name/ folder Example:
 
 ```text
-cp system/core/0001-init-don-t-bail-out-even-no-SELinux-domain-defined.patch vendor/android-generic/patches/google_diff/x86/pc_vendor_patches/__YourVendorName__/patches/system/core/0015-init-don-t-bail-out-even-no-SELinux-domain-defined.patch
+cp system/core/0001-init-don-t-bail-out-even-no-SELinux-domain-defined.patch vendor/extras/waydroid-patches/roms-patches/__YourVendorName__/system/core/0015-init-don-t-bail-out-even-no-SELinux-domain-defined.patch
 ```
 
