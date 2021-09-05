@@ -10,16 +10,16 @@ To initialize your local repository using the LineageOS trees, use a command lik
 repo init -u git://github.com/LineageOS/android.git -b lineage-17.1
 ```
 
+Then we grab the Waydroid local\_manifests
+
+```text
+wget -O - https://raw.githubusercontent.com/waydroid/android_vendor_waydroid/lineage-17.1/manifest_scripts/generate-manifest.sh | bash
+```
+
 Then to sync up:
 
 ```text
 repo sync
-```
-
-After sync is complete, add the Waydroid vendor:
-
-```text
-git clone https://github.com/waydroid/android_vendor_waydroid vendor/extra
 ```
 
 Then we setup the local build environment:
@@ -28,19 +28,7 @@ Then we setup the local build environment:
 . build/envsetup.sh
 ```
 
-Next we generate the manifest:
-
-```text
-waydroid-generate-manifest
-```
-
-Then sync up again:
-
-```text
-repo sync
-```
-
-After sync is complete, we apply the Waydroid patches:
+After that is complete, we apply the Waydroid patches:
 
 ```text
 apply-waydroid-patches
