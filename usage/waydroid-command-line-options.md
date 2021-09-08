@@ -15,6 +15,7 @@ Waydroid offers a number of command line arguments and options in order to work 
 * -v, --verbose - write even more to the logfiles \(this may reduce performance\) 
 * -q, --quiet - do not output any log messages
 * -f - Force options \(used with 'init' commands\)
+* -i LOCATION, Init from specified location \(/usr/share/waydroid-extra/images\) \*used with init action\*    Example: `sudo waydroid init -i usr/share/waydroid-extra/images`
 
 ### Actions 
 
