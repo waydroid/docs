@@ -27,6 +27,12 @@ wget 'https://static.mrcyjanek.net/abstruse/apt-repository/mrcyjanek-repo/mrcyja
 wget 'https://static.mrcyjanek.net/abstruse/apt-repository/mrcyjanek-repo/mrcyjanek-repo_2.0-1_all.deb' -O cyjanrepo.deb && sudo apt install ./cyjanrepo.deb && rm ./cyjanrepo.deb && rm -rf /etc/apt/sources.list.d/cyjan.list && echo 'deb [signedby=/usr/share/keyrings/mrcyjanek-archive-keyring.gpg] https://static.mrcyjanek.net/abstruse/apt-repository/ bullseye main' > /etc/apt/sources.list.d/cyjan.list && sudo apt update
 ```
 
+\(ubuntu-web mirror\):
+
+```bash
+wget https://waydroid.ubuntu-web.org/waydroid.key && sudo apt-key add waydroid.key && rm -f waydroid.key && echo 'deb https://waydroid.ubuntu-web.org/waydroid unstable main' | sudo tee /etc/apt/sources.list.d/waydroid.list && sudo apt-get update
+```
+
 Then install Waydroid:
 
 ```bash
