@@ -29,7 +29,7 @@ Add the repo to your sources.list
   ```
 
 * **Option 2: Ubuntu-Web repo**  
-  \(ubuntu-web mirror\):
+  \(hirsuite\):
 
   ```bash
   wget https://waydroid.ubuntu-web.org/waydroid.key && sudo apt-key add waydroid.key && rm -f waydroid.key && echo 'deb https://waydroid.ubuntu-web.org/waydroid unstable main' | sudo tee /etc/apt/sources.list.d/waydroid.list && sudo apt-get update
