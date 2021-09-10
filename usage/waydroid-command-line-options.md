@@ -10,7 +10,7 @@ Waydroid offers a number of command line arguments and options in order to work 
 
 * -h, --help - show this help message and exit 
 * -V, --version - show program's version number and exit 
-* -l LOG, --log LOG path - to log file 
+* -l LOG, --log LOG path - to log file \(default: /var/lib/waydroid\)
 * --details-to-stdout - print details \(e.g. build output\) to stdout, instead of writing to the log 
 * -v, --verbose - write even more to the logfiles \(this may reduce performance\) 
 * -q, --quiet - do not output any log messages
