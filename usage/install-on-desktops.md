@@ -17,7 +17,7 @@ Add the repo to your sources.list
 
 * **Unified Install**   
   Replace `DISTRO="bullseye"` with your current target.   
-  Options: focal, bullseye, hirsuite
+  Options: **focal**, **bullseye**, **hirsuite**
 
   ```bash
   export DISTRO="bullseye" && \
