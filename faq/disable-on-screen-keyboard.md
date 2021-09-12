@@ -4,7 +4,7 @@ description: Stop on-screen keyboard from popping up while typing
 
 # Disable On-Screen Keyboard
 
-You can disable on-screen keyboard by going to settings app and seleting Apps & notifications:
+You can disable on-screen keyboard by going to settings app and selecting Apps & notifications:
 
 ![image](https://user-images.githubusercontent.com/35414314/132976664-23ded884-6a57-41b0-9033-6d27a887df31.png)
 
