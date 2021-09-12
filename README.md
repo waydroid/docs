@@ -28,6 +28,8 @@ The Android runtime environment ships with a minimal customized Android system i
 
 [Install and Run Android Applications](usage/install-and-run-android-applications.md)
 
+[Waydroid Command Line Options](usage/waydroid-command-line-options.md)
+
 ## Reporting bugs
 
 If you have found an issue with Waydroid, please [file a bug](https://github.com/Waydroid/waydroid/issues/new).
