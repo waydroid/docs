@@ -16,6 +16,10 @@ The Android runtime environment ships with a minimal customized Android system i
 
 [Compile Waydroid - Lineage OS based images](development/compile-waydroid-lineage-os-based-images.md)
 
+#### Install Waydroid
+
+[Install and Run Waydroid on Desktop x86/64](usage/install-on-desktops.md)
+
 #### Usage
 
 [Install and Run Android Applications](usage/install-and-run-android-applications.md)
