@@ -40,5 +40,5 @@ If you want to get in contact with the developers please feel free to join the _
 
 ## Credits
 
-We'd like to say thanks to all these great teams: @Anbox @LineageOS @Android-x86 and many others, for you still lead the way for Open Innovation in the Android community.
+We'd like to say thanks to all these great teams & projects: @Anbox @LineageOS @Android-x86 @spurv and many others, for you still lead the way for Open Innovation in the Android community.
 
