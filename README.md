@@ -12,19 +12,19 @@ The Android runtime environment ships with a minimal customized Android system i
 
 ## Index
 
-#### Development:
+### Development:
 
 [Compile Waydroid - Lineage OS based images](development/compile-waydroid-lineage-os-based-images.md)
 
-#### Install Waydroid
+### Install Waydroid
 
 [Install and Run Waydroid on Desktop x86/64](usage/install-on-desktops.md)
 
-#### FAQ
+### FAQ
 
-[Disable On-Screen Keyboard](FAQ/disable-on-screen-keyboard.md)
+[Disable On-Screen Keyboard](https://github.com/waydroid/docs/tree/a7f82eec3d655ab1beb4f9436095f8bb6d91db11/FAQ/disable-on-screen-keyboard.md)
 
-#### Usage
+### Usage
 
 [Install and Run Android Applications](usage/install-and-run-android-applications.md)
 

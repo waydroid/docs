@@ -13,3 +13,7 @@
 * [Install and Run Android Applications](usage/install-and-run-android-applications.md)
 * [Waydroid command line options](usage/waydroid-command-line-options.md)
 
+## FAQ
+
+* [Disable On-Screen Keyboard](faq/disable-on-screen-keyboard.md)
+
