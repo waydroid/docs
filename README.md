@@ -22,7 +22,7 @@ The Android runtime environment ships with a minimal customized Android system i
 
 ### FAQ
 
-[Disable On-Screen Keyboard](https://github.com/waydroid/docs/tree/a7f82eec3d655ab1beb4f9436095f8bb6d91db11/FAQ/disable-on-screen-keyboard.md)
+[Disable On-Screen Keyboard](faq/disable-on-screen-keyboard.md)
 
 ### Usage
 
