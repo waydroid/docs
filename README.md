@@ -20,6 +20,10 @@ The Android runtime environment ships with a minimal customized Android system i
 
 [Install and Run Waydroid on Desktop x86/64](usage/install-on-desktops.md)
 
+#### FAQ
+
+[Disable On-Screen Keyboard](FAQ/disable-on-screen-keyboard.md)
+
 #### Usage
 
 [Install and Run Android Applications](usage/install-and-run-android-applications.md)
