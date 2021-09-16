@@ -2,7 +2,7 @@
 
 ## Ubuntu/Debian Based Installation
 
-\(for ubuntu focal & hirsuite along with debian bullseye\)
+\(for ubuntu focal & hirsute along with debian bullseye\)
 
 ### Prerequisites
 
@@ -13,10 +13,10 @@ Waydroid requires the following in order to work properly on your PC:
 
 ### Install
 
-Add the repo to your sources.list 
+Add the repo to your sources.list
 
-* **Unified Install**   
-  Replace `DISTRO="bullseye"` with your current target.   
+* **Unified Install**  
+  Replace `DISTRO="bullseye"` with your current target.  
   Options: **focal**, **bullseye**, **hirsute**
 
   ```bash
@@ -46,9 +46,9 @@ sudo systemctl start waydroid-container
 
 ## Reinstalling Waydroid
 
-Sometimes things don't go as planned and you need to remove it all and start over. To do that, follow the steps below: 
+Sometimes things don't go as planned and you need to remove it all and start over. To do that, follow the steps below:
 
-First, make sure you have stopped the session and containers: 
+First, make sure you have stopped the session and containers:
 
 ```bash
 waydroid session stop
@@ -61,7 +61,7 @@ Then it is safe to remove Waydroid:
 sudo apt remove waydroid
 ```
 
-After you remove Waydroid, reboot. 
+After you remove Waydroid, reboot.
 
 Then once logged back in, we need to do a little cleanup:
 
