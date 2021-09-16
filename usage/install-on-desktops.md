@@ -10,6 +10,7 @@ Waydroid requires the following in order to work properly on your PC:
 
 * python3
 * lxc
+* curl
 
 ### Install
 
