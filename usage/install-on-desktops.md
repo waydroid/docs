@@ -1,4 +1,4 @@
-# Desktop Install Instructions
+# Ubuntu/Debian Based Install Instructions
 
 ## Ubuntu/Debian Based Installation
 
