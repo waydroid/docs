@@ -1,8 +1,6 @@
 # Ubuntu/Debian Based Install Instructions
 
-## Ubuntu/Debian Based Installation
-
-\(for ubuntu focal & hirsute along with debian bullseye\)
+These instructions work for ubuntu focal, ubuntu hirsute, debian bullseye, droidian, ubports, and likely more. We will continue to update this document as the project further develops
 
 ### Prerequisites
 
