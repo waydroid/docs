@@ -16,30 +16,29 @@ Waydroid requires the following in order to work properly on your PC:
 
 Add the repo to your sources.list
 
-* **Unified Install**  
-  Replace `DISTRO="bullseye"` with your current target.  
-  Options: **focal**, **bullseye**, **hirsute**
+* **Unified Install** _\(for droidian & ubports, this step can be skipped\)_ Replace `DISTRO="bullseye"` with your current target. Options: **focal**, **bullseye**, **hirsute**
 
-  ```bash
-  export DISTRO="bullseye" && \
-  curl https://repo.waydro.id/waydroid.gpg > /usr/share/keyrings/waydroid.gpg && \ 
-  echo "deb [signed-by=/usr/share/keyrings/waydroid.gpg] https://repo.waydro.id/ $DISTRO main" > /etc/apt/sources.list.d/waydroid.list && \
-  sudo apt update
-  ```
+```bash
+export DISTRO="bullseye" && \
+curl https://repo.waydro.id/waydroid.gpg > /usr/share/keyrings/waydroid.gpg && \ 
+echo "deb [signed-by=/usr/share/keyrings/waydroid.gpg] https://repo.waydro.id/ $DISTRO main" > /etc/apt/sources.list.d/waydroid.list && \
+sudo apt update
+```
 
-Then install Waydroid:
+**Then install Waydroid:**  
+\(for Droidian & ubports, this step is where you start\)
 
 ```bash
 apt install waydroid
 ```
 
-And start the init process:
+**And start the init process:**
 
 ```bash
 sudo waydroid init
 ```
 
-Then start the waydroid-container service:
+**Then start the waydroid-container service:**
 
 ```bash
 sudo systemctl start waydroid-container
