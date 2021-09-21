@@ -15,7 +15,7 @@ Waydroid offers a number of command line arguments and options in order to work 
 * -v, --verbose - write even more to the logfiles \(this may reduce performance\) 
 * -q, --quiet - do not output any log messages
 * -f - Force options \(used with 'init' commands\)
-* -i LOCATION, Init from specified location \(/usr/share/waydroid-extra/images\) _\*used with init action\*_
+* -i LOCATION, Init from specified location \(default: /usr/share/waydroid-extra/images\) _\*used with init action\*_
 
 ### Actions 
 
@@ -48,9 +48,17 @@ You can use the following actions with the waydroid tool
   ```
 
 * Init for test builds:  
-  Create the folder: `usr/share/waydroid-extra/images` and extract your customized images there. Then run:
+  Create the folder: `usr/share/waydroid-extra/images` and extract your customized images there.   
+  First, you need to do a little cleanup \(if this fails, reboot and try again\):
 
   ```bash
+  sudo rm -rf /var/lib/waydroid /home/.waydroid ~/waydroid
+  ```
+
+  Then run:
+
+  ```bash
+  sudo wayfroif init -f
   sudo waydroid init -i usr/share/waydroid-extra/images
   ```
 
