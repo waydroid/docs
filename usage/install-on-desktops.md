@@ -46,7 +46,7 @@ sudo apt update
   **Then start the waydroid-container service:**
 
   ```bash
-  sudo systemctl start waydroid-containerNOTICE
+  sudo systemctl start waydroid-container
   ```
 
 * **Mobile Distros**  
