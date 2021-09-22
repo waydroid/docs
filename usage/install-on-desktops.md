@@ -28,24 +28,39 @@ echo "deb [signed-by=/usr/share/keyrings/waydroid.gpg] https://repo.waydro.id/ $
 sudo apt update
 ```
 
-**Then install Waydroid:**  
-\(for Droidian & ubports, this step is where you start\)
+* **Desktop Distros**  
 
-```bash
-apt install waydroid
-```
 
-**And start the init process:**
+  **install Waydroid:**
 
-```bash
-sudo waydroid init
-```
+  ```bash
+  apt install waydroid
+  ```
 
-**Then start the waydroid-container service:**
+  **And start the init process:**
 
-```bash
-sudo systemctl start waydroid-containerNOTICE
-```
+  ```bash
+  sudo waydroid init
+  ```
+
+  **Then start the waydroid-container service:**
+
+  ```bash
+  sudo systemctl start waydroid-containerNOTICE
+  ```
+
+* **Mobile Distros**  
+  \(for Droidian & ubports, this step is where you start\)
+
+  For mobile distros, you can start Waydroid by running:exit: Ctrl+↩
+
+  ```text
+  sudo -s
+  apt update
+  apt install waydroid
+  waydroid init
+  start waydroid
+  ```
 
 ## Troubleshooting
 
