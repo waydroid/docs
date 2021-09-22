@@ -1,5 +1,7 @@
 # Ubuntu/Debian Based Install Instructions
 
+## Installation:
+
 These instructions work for ubuntu focal, ubuntu hirsute, debian bullseye, droidian, ubports, and likely more. We will continue to update this document as the project further develops
 
 ### Prerequisites
@@ -9,7 +11,7 @@ Waydroid requires the following in order to work properly on your PC:
 * python3
 * lxc
 * curl
-* Wayland session manager
+* Wayland session manager _**!MPORTANT!!**_
 
 _**NOTICE**: Most mobile distros will require the user to remount as read-write before Waydroid can init properly._ 
 
