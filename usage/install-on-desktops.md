@@ -13,7 +13,7 @@ Waydroid requires the following in order to work properly on your PC:
 * curl
 * Wayland session manager _**!MPORTANT!!**_
 
-_**NOTICE**: Most mobile distros will require the user to remount as read-write before Waydroid can init properly._ 
+_**NOTICE**: Most mobile distros will require the user to remount as read-write before Waydroid can init properly._
 
 ### Install
 
@@ -28,33 +28,29 @@ echo "deb [signed-by=/usr/share/keyrings/waydroid.gpg] https://repo.waydro.id/ $
 sudo apt update
 ```
 
-* **Desktop Distros**  
+* **Desktop Distros**    
 
 
   **install Waydroid:**
 
   ```bash
-  apt install waydroid
+    apt install waydroid
   ```
 
   **And start the init process:**
 
   ```bash
-  sudo waydroid init
+    sudo waydroid init
   ```
 
   **Then start the waydroid-container service:**
 
   ```bash
-  sudo systemctl start waydroid-container
+    sudo systemctl start waydroid-container
   ```
 
-* **Mobile Distros**  
-  \(for Droidian & ubports, this step is where you start\)
-
-  For mobile distros, you can start Waydroid by running:exit: Ctrl+↩
-
-  ```text
+* **Mobile Distros** \(for Droidian & ubports, this step is where you start\) For mobile distros, you can start Waydroid by running:
+* ```bash
   sudo -s
   apt update
   apt install waydroid
@@ -80,7 +76,7 @@ sudo waydroid container start
 waydroid session start
 ```
 
-After that starts and you see "Android with user 0 is ready", it is safe to launch an app from the applications menu, or 
+After that starts and you see "Android with user 0 is ready", it is safe to launch an app from the applications menu, or
 
 ### Launch Waydroid In Full-Screen Mode:
 
