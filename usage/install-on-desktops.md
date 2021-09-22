@@ -11,6 +11,8 @@ Waydroid requires the following in order to work properly on your PC:
 * curl
 * Wayland session manager
 
+_**NOTICE**: Most mobile distros will require the user to remount as read-write before Waydroid can init properly._ 
+
 ### Install
 
 Add the repo to your sources.list
@@ -40,8 +42,52 @@ sudo waydroid init
 **Then start the waydroid-container service:**
 
 ```bash
-sudo systemctl start waydroid-container
+sudo systemctl start waydroid-containerNOTICE
 ```
+
+## Troubleshooting
+
+### Manually Starting Waydroid
+
+To start Waydroid without systemctl, you need to follow a few simple steps
+
+**Start the container first:**
+
+```bash
+sudo waydroid container start
+```
+
+**And in a new terminal tab, start the waydroid session:**
+
+```bash
+waydroid session start
+```
+
+After that starts and you see "Android with user 0 is ready", it is safe to launch an app from the applications menu, or 
+
+### Launch Waydroid In Full-Screen Mode:
+
+_\(This can be run while Waydroid is running, or used to start it in full-screen mode\)_
+
+```bash
+waydroid show-full-ui
+```
+
+### Launch Waydroid In Multi-Window Mode:
+
+First we need to set the property while a Waydroid session is running:
+
+```bash
+waydroid prop set persist.waydroid.multi_windows true
+```
+
+After that, we can restart the container:
+
+```text
+sudo systemctl restart waydroid-container
+```
+
+Then we are ready to launch an app, and it will start in multi-window mode
 
 ## Reinstalling Waydroid
 
