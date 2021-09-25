@@ -25,7 +25,7 @@ Add the repo to your sources.list
 export DISTRO="bullseye" && \
 sudo wget -O - https://repo.waydro.id/waydroid.gpg ~/waydroid.gpg && \
 sudo cp ~/waydroid.gpg /usr/share/keyrings/waydroid.gpg && \ 
-echo "deb [signed-by=/usr/share/keyrings/waydroid.gpg] https://repo.waydro.id/ $(DISTRO) main" ~/waydroid.list && \
+echo "deb [signed-by=/usr/share/keyrings/waydroid.gpg] https://repo.waydro.id/ $DISTRO main" ~/waydroid.list && \
 sudo cp ~/waydroid.list /etc/apt/sources.list.d/waydroid.list && \
 sudo apt update
 ```
