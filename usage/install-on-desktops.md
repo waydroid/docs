@@ -22,10 +22,11 @@ Add the repo to your sources.list
 * **Unified Install** _\(for droidian & ubports, this step can be skipped\)_ Replace `DISTRO="bullseye"` with your current target. Options: **focal**, **bullseye**, **hirsute**
 
 ```bash
-sudo -s
 export DISTRO="bullseye" && \
-curl https://repo.waydro.id/waydroid.gpg > /usr/share/keyrings/waydroid.gpg && \ 
-echo "deb [signed-by=/usr/share/keyrings/waydroid.gpg] https://repo.waydro.id/ $DISTRO main" > /etc/apt/sources.list.d/waydroid.list && \
+sudo wget -O - https://repo.waydro.id/waydroid.gpg ~/waydroid.gpg && \
+sudo cp ~/waydroid.gpg /usr/share/keyrings/waydroid.gpg && \ 
+echo "deb [signed-by=/usr/share/keyrings/waydroid.gpg] https://repo.waydro.id/ $(DISTRO) main" ~/waydroid.list && \
+sudo cp ~/waydroid.list /etc/apt/sources.list.d/waydroid.list && \
 sudo apt update
 ```
 
