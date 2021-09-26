@@ -58,14 +58,14 @@ You can use the following actions with the waydroid tool
   Then run:
 
   ```bash
-  sudo wayfroif init -f
+  sudo waydroid init -f
   sudo waydroid init
   ```
 
   Or, if you have your test images in another location \(ex: ~/Downloads/test\_build/\), then run:
 
   ```bash
-  sudo wayfroif init -f
+  sudo waydroid init -f
   sudo waydroid init -i ~/Downloads/test_build
   ```
 
