@@ -1,10 +1,14 @@
 # Ubuntu/Debian Based Install Instructions
 
-## Installation:
+## Installation
 
 These instructions work for ubuntu focal, ubuntu hirsute, debian bullseye, droidian, ubports, and likely more. We will continue to update this document as the project further develops
 
-### Prerequisites
+### Install Prerequisites
+
+```bash
+sudo apt install curl lxc python3 -y
+```
 
 Waydroid requires the following in order to work properly on your PC:
 
@@ -12,10 +16,13 @@ Waydroid requires the following in order to work properly on your PC:
 * lxc
 * curl
 * Wayland session manager _**!MPORTANT!!**_
+> Note: Wayland session manager comes with distros running GNOME by default (Ubuntu, Pop!_OS, Fedora, etc), so no need to install separately.
+> 
+> Other desktop environments/window managers, might not support Wayland out of the box. (KDE Plasma does after 5.21)
 
 _**NOTICE**: Most mobile distros will require the user to remount as read-write before Waydroid can init properly._
 
-### Install
+### Install Waydroid
 
 Add the repo to your sources.list
 
@@ -35,7 +42,7 @@ sudo apt update
   **install Waydroid:**
 
   ```bash
-    apt install waydroid
+    sudo apt install waydroid -y
   ```
 
   **And start the init process:**
