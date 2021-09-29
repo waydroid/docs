@@ -5,7 +5,7 @@ Waydroid uses various properties in order to tell the underlying Android system 
 ### Properties
 
 * **waydroid prop set persist.waydroid.multi\_windows** true/false \(bool\) Enables/Disables persistent freeform window mode 
-* **waydroid prop set persist.waydroid.invert\_colors** true/false \(bool\) Swaps the color space from RGBA to BGRA \(only works with mutter so far\) 
+* **waydroid prop set persist.waydroid.invert\_colors** true/false \(bool\) Swaps the color space from RGBA to BGRA \(only works with our patched mutter so far\) 
 * **waydroid prop set persist.waydroid.height\_padding** 0-9999 \(int\) Adjust Height padding \(30 will allow you to use navbar on mobile\) 
 * **waydroid prop set persist.waydroid.width\_padding** 0-9999 \(int\) Adjust width padding 
 * **waydroid prop set waydroid.display\_width** 0-9999 \(int\) \(auto-generated\) Auto generated size of Waydroid screen 
