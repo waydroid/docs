@@ -16,9 +16,10 @@ Waydroid requires the following in order to work properly on your PC:
 * lxc
 * curl
 * Wayland session manager _**!MPORTANT!!**_
-> Note: Wayland session manager comes with distros running GNOME by default (Ubuntu, Pop!_OS, Fedora, etc), so no need to install separately.
-> 
-> Other desktop environments/window managers, might not support Wayland out of the box. (KDE Plasma does after 5.21)
+
+  > Note: Wayland session manager comes with distros running GNOME by default \(Ubuntu, Pop!\_OS, Fedora, etc\), so no need to install separately.
+  >
+  > Other desktop environments/window managers, might not support Wayland out of the box. \(KDE Plasma does after 5.21\)
 
 _**NOTICE**: Most mobile distros will require the user to remount as read-write before Waydroid can init properly._
 
@@ -38,24 +39,23 @@ sudo apt update
 
 * **Desktop Distros**    
 
+**install Waydroid:**
 
-  **install Waydroid:**
-
-  ```bash
+```bash
     sudo apt install waydroid -y
-  ```
+```
 
-  **And start the init process:**
+**And start the init process:**
 
-  ```bash
+```bash
     sudo waydroid init
-  ```
+```
 
-  **Then start the waydroid-container service:**
+**Then start the waydroid-container service:**
 
-  ```bash
+```bash
     sudo systemctl start waydroid-container
-  ```
+```
 
 * **Mobile Distros** \(for Droidian & ubports, this step is where you start\) For mobile distros, you can start Waydroid by running:
 * ```bash

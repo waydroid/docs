@@ -2,11 +2,11 @@
 
 Waydroid offers a number of command line arguments and options in order to work with the various parts of the program.
 
-### Usage
+## Usage
 
-`waydroid [-h] [-V] [-l LOG] [--details-to-stdout] [-v] [-q]` 
+`waydroid [-h] [-V] [-l LOG] [--details-to-stdout] [-v] [-q]`
 
-### optional arguments
+## optional arguments
 
 * -h, --help - show this help message and exit 
 * -V, --version - show program's version number and exit 
@@ -17,7 +17,7 @@ Waydroid offers a number of command line arguments and options in order to work 
 * -f - Force options \(used with 'init' commands\)
 * -i LOCATION, Init from specified location \(default: /usr/share/waydroid-extra/images\) _\*used with init action\*_
 
-### Actions 
+## Actions
 
 You can use the following actions with the waydroid tool
 
@@ -33,7 +33,7 @@ You can use the following actions with the waydroid tool
 * shell - run remote shell command 
 * logcat - show android logcat
 
-### Examples
+## Examples
 
 * log:
 
@@ -48,7 +48,7 @@ You can use the following actions with the waydroid tool
   ```
 
 * Init for test builds:  
-  Create the folder: `usr/share/waydroid-extra/images` and extract your customized images there.   
+  Create the folder: `usr/share/waydroid-extra/images` and extract your customized images there.  
   First, you need to do a little cleanup \(if this fails, reboot and try again\):
 
   ```bash
@@ -68,6 +68,4 @@ You can use the following actions with the waydroid tool
   sudo waydroid init -f
   sudo waydroid init -i ~/Downloads/test_build
   ```
-
-
 
