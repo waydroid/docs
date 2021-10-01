@@ -4,7 +4,7 @@
 
 These instructions work for ubuntu focal, ubuntu hirsute, debian bullseye, droidian, ubports, and likely more. We will continue to update this document as the project further develops
 
-### Install Prerequisites
+### Install Pre-requisites
 
 ```bash
 sudo apt install curl lxc python3 -y
@@ -16,16 +16,19 @@ Waydroid requires the following in order to work properly on your PC:
 * lxc
 * curl
 * Wayland session manager _**!MPORTANT!!**_
+* Intel iGPU or AMD iGPU/dGPU for Wayland output
 
-  > Note: Wayland session manager comes with distros running GNOME by default \(Ubuntu, Pop!\_OS, Fedora, etc\), so no need to install separately.
-  >
-  > Other desktop environments/window managers, might not support Wayland out of the box. \(KDE Plasma does after 5.21\)
+> _**NOTES**:_
+> + ⚠️  NVIDIA GPUs do not work as of now, try using iGPU of your CPU or software rendering instead.
+> + Most mobile distros will require the user to remount as `read-write` before Waydroid can init properly.
+> + _**Wayland session manager**_ comes with distros running GNOME by default \(Ubuntu, Pop!\_OS, Fedora, etc\), so no need to install separately.
+> Other desktop environments/window managers, might not support Wayland out of the box. \(KDE Plasma does after 5.21\)
 
-_**NOTICE**: Most mobile distros will require the user to remount as read-write before Waydroid can init properly._
+
 
 ### Install Waydroid
 
-Add the repo to your sources.list
+Add the repo to your `sources.list`
 
 * **Unified Install** _\(for droidian & ubports, this step can be skipped\)_ Replace `DISTRO="bullseye"` with your current target. Options: **focal**, **bullseye**, **hirsute**
 
