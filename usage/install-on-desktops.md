@@ -7,7 +7,7 @@ These instructions work for ubuntu focal, ubuntu hirsute, debian bullseye, droid
 ### Install Pre-requisites
 
 ```bash
-sudo apt install curl lxc python3 -y
+sudo apt install curl -y
 ```
 
 Waydroid requires the following in order to work properly on your PC:
@@ -15,22 +15,19 @@ Waydroid requires the following in order to work properly on your PC:
 * python3
 * lxc
 * curl
-* Wayland session manager _**!MPORTANT!!**_
-* Intel iGPU or AMD iGPU/dGPU for Wayland output
+* Wayland session manager _**IMPORTANT!!**_
 
 > _**NOTES**:_
-> + ⚠️  NVIDIA GPUs do not work as of now, try using iGPU of your CPU or software rendering instead.
-> + Most mobile distros will require the user to remount as `read-write` before Waydroid can init properly.
-> + _**Wayland session manager**_ comes with distros running GNOME by default \(Ubuntu, Pop!\_OS, Fedora, etc\), so no need to install separately.
-> Other desktop environments/window managers, might not support Wayland out of the box. \(KDE Plasma does after 5.21\)
-
-
+>
+> * ⚠️  NVIDIA GPUs do not work as of now, try using iGPU of your CPU or software rendering instead.
+> * _**Wayland session manager**_ comes with distros running GNOME by default \(Ubuntu, Pop!\_OS, Fedora, etc\), so no need to install separately.
+> * Other desktop environments/window managers, might not support Wayland out of the box. \(KDE Plasma does after 5.21\)
 
 ### Install Waydroid
 
 Add the repo to your `sources.list`
 
-* **Unified Install** _\(for droidian & ubports, this step can be skipped\)_ Replace `DISTRO="bullseye"` with your current target. Options: **focal**, **bullseye**, **hirsute**
+* **Add waydroid repo** _\(for droidian & ubports, this step can be skipped\)_ Replace `DISTRO="bullseye"` with your current target. Options: **focal**, **bullseye**, **hirsute**
 
 ```bash
 export DISTRO="bullseye" && \
@@ -40,34 +37,23 @@ sudo mv ~/waydroid.list /etc/apt/sources.list.d/waydroid.list && \
 sudo apt update
 ```
 
-* **Desktop Distros**    
-
 **install Waydroid:**
 
 ```bash
-    sudo apt install waydroid -y
+sudo apt install waydroid -y
 ```
 
 **And start the init process:**
 
 ```bash
-    sudo waydroid init
+sudo waydroid init
 ```
 
-**Then start the waydroid-container service:**
+**Then start the waydroid container service \(or just simply reboot\):**
 
 ```bash
-    sudo systemctl start waydroid-container
+sudo systemctl start waydroid-container
 ```
-
-* **Mobile Distros** \(for Droidian & ubports, this step is where you start\) For mobile distros, you can start Waydroid by running:
-* ```bash
-  sudo -s
-  apt update
-  apt install waydroid
-  waydroid init
-  start waydroid
-  ```
 
 ## Troubleshooting
 
@@ -81,7 +67,7 @@ To start Waydroid without systemctl, you need to follow a few simple steps
 sudo waydroid container start
 ```
 
-**And in a new terminal tab, start the waydroid session:**
+**And in a new terminal tab, start the waydroid session \(without** _**sudo**_**\):**
 
 ```bash
 waydroid session start
@@ -135,7 +121,7 @@ After you remove Waydroid, reboot.
 Then once logged back in, we need to do a little cleanup:
 
 ```bash
-sudo rm -rf /var/lib/waydroid /home/.waydroid ~/waydroid
+sudo rm -rf /var/lib/waydroid /home/.waydroid ~/waydroid ~/.share/waydroid
 ```
 
 Then can reinstall and run the init command again:
