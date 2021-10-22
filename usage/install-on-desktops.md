@@ -121,7 +121,7 @@ After you remove Waydroid, reboot.
 Then once logged back in, we need to do a little cleanup:
 
 ```bash
-sudo rm -rf /var/lib/waydroid /home/.waydroid ~/waydroid ~/.share/waydroid ~/.local/share/applications/* ~/.local/share/waydroid
+sudo rm -rf /var/lib/waydroid /home/.waydroid ~/waydroid ~/.share/waydroid ~/.local/share/applications/waydroid.* ~/.local/share/applications/Waydroid.desktop ~/.local/share/waydroid
 ```
 
 Then can reinstall and run the init command again:
