@@ -19,15 +19,15 @@ Waydroid requires the following in order to work properly on your PC:
 
 > _**NOTES**:_
 >
-> * ⚠️  NVIDIA GPUs do not work as of now, try using iGPU of your CPU or software rendering instead.
-> * _**Wayland session manager**_ comes with distros running GNOME by default \(Ubuntu, Pop!\_OS, Fedora, etc\), so no need to install separately.
-> * Other desktop environments/window managers, might not support Wayland out of the box. \(KDE Plasma does after 5.21\)
+> * ⚠️ NVIDIA GPUs do not work as of now, try using iGPU of your CPU or software rendering instead.
+> * _**Wayland session manager**_ comes with distros running GNOME by default (Ubuntu, Pop!\_OS, Fedora, etc), so no need to install separately.
+> * Other desktop environments/window managers, might not support Wayland out of the box. (KDE Plasma does after 5.21)
 
 ### Install Waydroid
 
 Add the repo to your `sources.list`
 
-* **Add waydroid repo** _\(for droidian & ubports, this step can be skipped\)_ Replace `DISTRO="bullseye"` with your current target. Options: **focal**, **bullseye**, **hirsute**
+* **Add waydroid repo** _(for droidian & ubports, this step can be skipped)_ Replace `DISTRO="bullseye"` with your current target. Options: **focal**, **bullseye**, **hirsute**
 
 ```bash
 export DISTRO="bullseye" && \
@@ -49,7 +49,7 @@ sudo apt install waydroid -y
 sudo waydroid init
 ```
 
-**Then start the waydroid container service \(or just simply reboot\):**
+**Then start the waydroid container service (or just simply reboot):**
 
 ```bash
 sudo systemctl start waydroid-container
@@ -67,7 +67,7 @@ To start Waydroid without systemctl, you need to follow a few simple steps
 sudo waydroid container start
 ```
 
-**And in a new terminal tab, start the waydroid session \(without** _**sudo**_**\):**
+**And in a new terminal tab, start the waydroid session (without** _**sudo**_**):**
 
 ```bash
 waydroid session start
@@ -77,7 +77,7 @@ After that starts and you see "Android with user 0 is ready", it is safe to laun
 
 ### Launch Waydroid In Full-Screen Mode:
 
-_\(This can be run while Waydroid is running, or used to start it in full-screen mode\)_
+_(This can be run while Waydroid is running, or used to start it in full-screen mode)_
 
 ```bash
 waydroid show-full-ui
@@ -93,7 +93,7 @@ waydroid prop set persist.waydroid.multi_windows true
 
 After that, we can restart the container:
 
-```text
+```
 sudo systemctl restart waydroid-container
 ```
 
@@ -121,7 +121,7 @@ After you remove Waydroid, reboot.
 Then once logged back in, we need to do a little cleanup:
 
 ```bash
-sudo rm -rf /var/lib/waydroid /home/.waydroid ~/waydroid ~/.share/waydroid ~/.local/share/applications/* ~/.local/share/waydroid
+sudo rm -rf /var/lib/waydroid /home/.waydroid ~/waydroid ~/.share/waydroid ~/.local/share/applications/*aydroid* ~/.local/share/waydroid
 ```
 
 Then can reinstall and run the init command again:
@@ -130,4 +130,3 @@ Then can reinstall and run the init command again:
 sudo apt install waydroid
 sudo waydroid init
 ```
-
