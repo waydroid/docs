@@ -4,31 +4,51 @@ Waydroid is a container-based approach to boot a full Android system on a regula
 
 ## Overview
 
-Waydroid uses Linux namespaces \(user, pid, uts, net, mount, ipc\) to run a full Android system in a container and provide Android applications on any GNU/Linux-based platform.
+Waydroid uses Linux namespaces (user, pid, uts, net, mount, ipc) to run a full Android system in a container and provide Android applications on any GNU/Linux-based platform.
 
 The Android inside the container has direct access to needed hardwares.
 
-The Android runtime environment ships with a minimal customized Android system image based on the [LineageOS](https://lineageos.org/). The used image is currently based on Android 10
+The Android runtime environment ships with a minimal customized Android system image based on the [LineageOS](https://lineageos.org). The used image is currently based on Android 10
 
 ## Index
 
 ### Development:
 
-[Compile Waydroid - Lineage OS based images](development/compile-waydroid-lineage-os-based-images.md)
+{% content-ref url="development/compile-waydroid-lineage-os-based-images.md" %}
+[compile-waydroid-lineage-os-based-images.md](development/compile-waydroid-lineage-os-based-images.md)
+{% endcontent-ref %}
 
-### Install Waydroid
-
-[Install and Run Waydroid on Desktop x86/64](usage/install-on-desktops.md)
-
-### FAQ
-
-[Disable On-Screen Keyboard](faq/disable-on-screen-keyboard.md)
+{% content-ref url="development/manual-patch-resolution.md" %}
+[manual-patch-resolution.md](development/manual-patch-resolution.md)
+{% endcontent-ref %}
 
 ### Usage
 
-[Install and Run Android Applications](usage/install-and-run-android-applications.md)
+{% content-ref url="usage/install-on-desktops.md" %}
+[install-on-desktops.md](usage/install-on-desktops.md)
+{% endcontent-ref %}
 
-[Waydroid Command Line Options](usage/waydroid-command-line-options.md)
+{% content-ref url="usage/install-and-run-android-applications.md" %}
+[install-and-run-android-applications.md](usage/install-and-run-android-applications.md)
+{% endcontent-ref %}
+
+{% content-ref url="usage/waydroid-command-line-options.md" %}
+[waydroid-command-line-options.md](usage/waydroid-command-line-options.md)
+{% endcontent-ref %}
+
+{% content-ref url="usage/waydroid-prop-options.md" %}
+[waydroid-prop-options.md](usage/waydroid-prop-options.md)
+{% endcontent-ref %}
+
+### FAQ
+
+{% content-ref url="faq/disable-on-screen-keyboard.md" %}
+[disable-on-screen-keyboard.md](faq/disable-on-screen-keyboard.md)
+{% endcontent-ref %}
+
+{% content-ref url="faq/community-projects-we-like.md" %}
+[community-projects-we-like.md](faq/community-projects-we-like.md)
+{% endcontent-ref %}
 
 ## Reporting bugs
 
@@ -41,4 +61,3 @@ If you want to get in contact with the developers please feel free to join the _
 ## Credits
 
 We'd like to say thanks to all these great teams & projects: @Anbox @LineageOS @Android-x86 @spurv @LXC and many others, for you still lead the way for Open Innovation in Linux and the Android community.
-
