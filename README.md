@@ -50,6 +50,10 @@ The Android runtime environment ships with a minimal customized Android system i
 [community-projects-we-like.md](faq/community-projects-we-like.md)
 {% endcontent-ref %}
 
+{% content-ref url="faq/get-waydroid-to-work-through-a-vm.md" %}
+[get-waydroid-to-work-through-a-vm.md](faq/get-waydroid-to-work-through-a-vm.md)
+{% endcontent-ref %}
+
 ## Reporting bugs
 
 If you have found an issue with Waydroid, please [file a bug](https://github.com/Waydroid/waydroid/issues/new).
