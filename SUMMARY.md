@@ -19,3 +19,4 @@
 * [Disable On-Screen Keyboard](faq/disable-on-screen-keyboard.md)
 * [Community Projects We Like](faq/community-projects-we-like.md)
 * [Get Waydroid to work through a VM](faq/get-waydroid-to-work-through-a-vm.md)
+* [Using ADB with Waydroid](faq/using-adb-with-waydroid.md)
