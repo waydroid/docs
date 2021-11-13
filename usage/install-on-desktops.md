@@ -25,6 +25,11 @@ Waydroid requires the following in order to work properly on your PC:
 
 ### Install Waydroid
 
+Install ca-certificates, if not already installed.
+```bash
+sudo apt install ca-certificates
+```
+
 Add the repo to your `sources.list`
 
 * **Add waydroid repo** _(for droidian & ubports, this step can be skipped)_ Replace `DISTRO="bullseye"` with your current target. Options: **focal**, **bullseye**, **hirsute**
