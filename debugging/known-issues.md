@@ -17,6 +17,6 @@ adding the below to it.
 
 Dual GPUs are known to cause an issue where the display is garbled or flickering. there are two fixes for this.&#x20;
 
-the first method is to use `gralloc.gbm.device=/dev/dri/renderD128` replacing `D128` with whichever gpu you use.
+the first method is to use `gralloc.gbm.device=/dev/dri/renderD128` replacing `D128` with whichever gpu you use, inside of `waydroid_base.prop`
 
-Failing this, there is a script located [`here`](https://github.com/Quackdoc/waydroid-scripts/blob/main/waydroid-choose-gpu.sh). this script will modify the LXC binding so only one GPU gets used by waydroid
+should this fail, there is a script located [`here`](https://github.com/Quackdoc/waydroid-scripts/blob/main/waydroid-choose-gpu.sh). this script will modify the LXC binding so only one GPU gets used by waydroid
