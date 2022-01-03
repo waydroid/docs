@@ -21,3 +21,9 @@
 * [Get Waydroid to work through a VM](faq/get-waydroid-to-work-through-a-vm.md)
 * [Using ADB with Waydroid](faq/using-adb-with-waydroid.md)
 * [Setting up Waydroid only Sessions](faq/setting-up-waydroid-only-sessions.md)
+
+## Debugging
+
+* [Getting Essential Information](debugging/getting-essential-information.md)
+* [Networking Issues](debugging/networking-issues.md)
+* [Known Issues](debugging/known-issues.md)
