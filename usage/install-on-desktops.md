@@ -30,6 +30,11 @@ Install ca-certificates, if not already installed.
 sudo apt install ca-certificates
 ```
 
+Check your distro (codename) for the next step
+```bash
+lsb_release -c
+```
+
 Add the repo to your `sources.list`
 
 * **Add waydroid repo** _(for droidian & ubports, this step can be skipped)_ Replace `DISTRO="bullseye"` with your current target. Options: **focal**, **bullseye**, **hirsute**

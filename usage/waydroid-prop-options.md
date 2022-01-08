@@ -1,6 +1,6 @@
 # Waydroid Prop Options
 
-Waydroid uses various properties in order to tell the underlying Android system how to behave in a few places. To do this, we use the `waydroid prop` command. 
+Waydroid uses various properties in order to tell the underlying Android system how to behave in a few places. To do this, we use the `waydroid prop` command. To unset a prop, `waydroid prop set <property> ""`
 
 ### Properties
 
