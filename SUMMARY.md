@@ -11,12 +11,6 @@
 * [Waydroid Prop Options](usage/waydroid-prop-options.md)
 
 
-## Development
-
-* [Compile Waydroid - Lineage OS based images](development/compile-waydroid-lineage-os-based-images.md)
-* [Manual Patch Resolution](development/manual-patch-resolution.md)
-
-
 ## FAQ
 
 * [Disable On-Screen Keyboard](faq/disable-on-screen-keyboard.md)
@@ -25,3 +19,9 @@
 * [Using ADB with Waydroid](faq/using-adb-with-waydroid.md)
 * [Setting up Waydroid only Sessions](faq/setting-up-waydroid-only-sessions.md)
 * [Troubleshooting](faq/troubleshooting.md)
+
+
+## Development
+
+* [Compile Waydroid - Lineage OS based images](development/compile-waydroid-lineage-os-based-images.md)
+* [Manual Patch Resolution](development/manual-patch-resolution.md)
