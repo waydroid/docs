@@ -12,15 +12,6 @@ The Android runtime environment ships with a minimal customized Android system i
 
 ## Index
 
-### Development:
-
-{% content-ref url="development/compile-waydroid-lineage-os-based-images.md" %}
-[compile-waydroid-lineage-os-based-images.md](development/compile-waydroid-lineage-os-based-images.md)
-{% endcontent-ref %}
-
-{% content-ref url="development/manual-patch-resolution.md" %}
-[manual-patch-resolution.md](development/manual-patch-resolution.md)
-{% endcontent-ref %}
 
 ### Usage
 
@@ -38,6 +29,17 @@ The Android runtime environment ships with a minimal customized Android system i
 
 {% content-ref url="usage/waydroid-prop-options.md" %}
 [waydroid-prop-options.md](usage/waydroid-prop-options.md)
+{% endcontent-ref %}
+
+
+### Development:
+
+{% content-ref url="development/compile-waydroid-lineage-os-based-images.md" %}
+[compile-waydroid-lineage-os-based-images.md](development/compile-waydroid-lineage-os-based-images.md)
+{% endcontent-ref %}
+
+{% content-ref url="development/manual-patch-resolution.md" %}
+[manual-patch-resolution.md](development/manual-patch-resolution.md)
 {% endcontent-ref %}
 
 ### FAQ
