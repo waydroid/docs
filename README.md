@@ -32,16 +32,6 @@ The Android runtime environment ships with a minimal customized Android system i
 {% endcontent-ref %}
 
 
-### Development:
-
-{% content-ref url="development/compile-waydroid-lineage-os-based-images.md" %}
-[compile-waydroid-lineage-os-based-images.md](development/compile-waydroid-lineage-os-based-images.md)
-{% endcontent-ref %}
-
-{% content-ref url="development/manual-patch-resolution.md" %}
-[manual-patch-resolution.md](development/manual-patch-resolution.md)
-{% endcontent-ref %}
-
 ### FAQ
 
 {% content-ref url="faq/disable-on-screen-keyboard.md" %}
@@ -58,6 +48,17 @@ The Android runtime environment ships with a minimal customized Android system i
 
 {% content-ref url="faq/troubleshooting.md" %}
 [troubleshooting.md](faq/troubleshooting.md)
+{% endcontent-ref %}
+
+
+### Development:
+
+{% content-ref url="development/compile-waydroid-lineage-os-based-images.md" %}
+[compile-waydroid-lineage-os-based-images.md](development/compile-waydroid-lineage-os-based-images.md)
+{% endcontent-ref %}
+
+{% content-ref url="development/manual-patch-resolution.md" %}
+[manual-patch-resolution.md](development/manual-patch-resolution.md)
 {% endcontent-ref %}
 
 ## Reporting bugs
