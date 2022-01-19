@@ -9,7 +9,7 @@ To get started with Android/LineageOS, you'll need to get familiar with [Repo](h
 To initialize your local repository using the LineageOS trees, use a command like this:
 
 ```text
-repo init -u git://github.com/LineageOS/android.git -b lineage-17.1
+repo init -u https://github.com/LineageOS/android.git -b lineage-17.1
 ```
 
 Then we grab the Waydroid local\_manifests
