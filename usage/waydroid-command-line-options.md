@@ -70,17 +70,6 @@ usage: waydroid container \[-h] {start,stop,restart,freeze,unfreeze} ...
 * unfreeze : unfreeze container
 
 
-
-## Session Options <a href="session-options" id="session-options"></a>
-
-usage: waydroid session \[-h] {start,stop} ...
-
-* \-h | --help : Show this help message and exit
-
-#### Subaction: <a href="subaction" id="subaction"></a>
-
-* {start,stop} : start start session stop start session
-
 ## Session Options
 
 usage: waydroid session \[-h] {start,stop} ...
