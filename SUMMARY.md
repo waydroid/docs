@@ -22,3 +22,4 @@
 * [Using ADB with Waydroid](faq/using-adb-with-waydroid.md)
 * [Setting up Waydroid only Sessions](faq/setting-up-waydroid-only-sessions.md)
 * [Setting up a shared folder](faq/setting-up-a-shared-folder.md)
+* [Using custom Waydroid images](faq/using-custom-waydroid-images.md)
