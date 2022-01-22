@@ -1,6 +1,32 @@
-# Ubuntu/Debian Based Install Instructions
+# Install Instructions
 
-## Installation
+## Arch Linux&#x20;
+
+Some of our friends have started putting together all the install instructions for Arch over on the arch wiki:
+
+{% embed url="https://wiki.archlinux.org/title/Waydroid" %}
+
+## Postmarket OS
+
+Thanks to the Postmarket community, you can also find instructions and troubleshooting tips on their wiki:
+
+{% embed url="https://wiki.postmarketos.org/wiki/Waydroid" %}
+
+## Mobian
+
+The community was kind enough to post the install instructions for Mobian on their Doku pages:
+
+{% embed url="https://wiki.mobian-project.org/doku.php?id=waydroid" %}
+
+## Zorin OS
+
+User @Aman9das has put together a detailed guide for installing Waydroid on Zorin OS:
+
+{% embed url="https://github.com/Aman9das/Waydroid_Setup_Guide" %}
+
+## Ubuntu/Debian Based Install Instructions
+
+### Installation
 
 These instructions work for ubuntu focal, ubuntu hirsute, debian bullseye, droidian, ubports, and likely more. We will continue to update this document as the project further develops
 
@@ -26,11 +52,13 @@ Waydroid requires the following in order to work properly on your PC:
 ### Install Waydroid
 
 Install ca-certificates, if not already installed.
+
 ```bash
 sudo apt install ca-certificates
 ```
 
 Check your distro (codename) for the next step
+
 ```bash
 lsb_release -c
 ```

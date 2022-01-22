@@ -9,7 +9,7 @@
 
 ## Usage
 
-* [Ubuntu/Debian Based Install Instructions](usage/install-on-desktops.md)
+* [Install Instructions](usage/install-on-desktops.md)
 * [Install and Run Android Applications](usage/install-and-run-android-applications.md)
 * [Waydroid command line options](usage/waydroid-command-line-options.md)
 * [Waydroid Prop Options](usage/waydroid-prop-options.md)
