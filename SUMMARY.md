@@ -21,3 +21,4 @@
 * [Get Waydroid to work through a VM](faq/get-waydroid-to-work-through-a-vm.md)
 * [Using ADB with Waydroid](faq/using-adb-with-waydroid.md)
 * [Setting up Waydroid only Sessions](faq/setting-up-waydroid-only-sessions.md)
+* [Setting up a shared folder](faq/setting-up-a-shared-folder.md)

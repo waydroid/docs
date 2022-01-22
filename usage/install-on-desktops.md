@@ -24,6 +24,12 @@ User @Aman9das has put together a detailed guide for installing Waydroid on Zori
 
 {% embed url="https://github.com/Aman9das/Waydroid_Setup_Guide" %}
 
+## Sailfish OS
+
+A few of the contributors to sailfishos-open have put together a resource for installing Waydroid on the OS:
+
+{% embed url="https://github.com/sailfishos-open/waydroid" %}
+
 ## Ubuntu/Debian Based Install Instructions
 
 ### Installation
