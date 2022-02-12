@@ -30,6 +30,12 @@ A few of the contributors to sailfishos-open have put together a resource for in
 
 {% embed url="https://github.com/sailfishos-open/waydroid" %}
 
+## Fedora
+
+One of the Fedora community members has put together a blog post to detail he steps needed to get Waydroid up and running that distro:
+
+{% embed url="https://yanqiyu.info/2021/10/25/waydroid-fedora" %}
+
 ## Ubuntu/Debian Based Install Instructions
 
 ### Installation
