@@ -61,7 +61,14 @@ lunch lineage_waydroid_arm64-userdebug
 make systemimage -j$(nproc --all)
 make vendorimage -j$(nproc --all)
 ```
+### Image Generation From Sparse Image:
 
+Make sure simg2img is installed and:
+
+```text
+simg2img system.img output_dir/system.img
+simg2img vendor.img output_dir/vendor.img
+```
 ## Troubleshooting
 
 ### Local Manifest:
