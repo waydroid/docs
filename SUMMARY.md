@@ -20,10 +20,15 @@
 * [Setting up Waydroid only Sessions](faq/setting-up-waydroid-only-sessions.md)
 * [Setting up a shared folder](faq/setting-up-a-shared-folder.md)
 * [Using custom Waydroid images](faq/using-custom-waydroid-images.md)
-* [Troubleshooting](faq/troubleshooting.md)
-
 
 ## Development
 
 * [Compile Waydroid - Lineage OS based images](development/compile-waydroid-lineage-os-based-images.md)
 * [Manual Patch Resolution](development/manual-patch-resolution.md)
+
+## Debugging
+
+* [Getting Essential Information](debugging/getting-essential-information.md)
+* [Networking Issues](debugging/networking-issues.md)
+* [Known Issues](debugging/known-issues.md)
+* [General Troubleshooting](debugging/troubleshooting.md)

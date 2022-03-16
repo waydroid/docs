@@ -2,7 +2,7 @@
 description: If you run into issues, take a look at the official Issue Tracker [Waydroid issue tracker](https://github.com/waydroid/waydroid/issues)
 ---
 
-# Troubleshooting
+# General Troubleshooting
 
 #### General tips
 Waydroid is in rapid developement so if you face issues, here is a good list of steps to do first:
