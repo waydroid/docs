@@ -4,7 +4,16 @@ description: Stop on-screen keyboard from popping up while typing
 
 # Disable On-Screen Keyboard
 
-You can disable on-screen keyboard by going to settings app and selecting Apps & notifications:
+
+
+You can disable on-screen keyboard by two methods,
+
+#### From command-line:
+
+  `# lxc-attach -P /var/lib/waydroid/lxc/ -n waydroid --clear-env pm disable com.android.inputmethod.
+latin`
+
+#### Going to settings app and selecting Apps & notifications:
 
 ![](../.gitbook/assets/132976664-23ded884-6a57-41b0-9033-6d27a887df31.png)
 
