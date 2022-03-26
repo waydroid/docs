@@ -40,6 +40,14 @@ Otherwise, Karuboniru's blog post details the steps needed to get Waydroid up an
 
 {% embed url="https://yanqiyu.info/2021/10/25/waydroid-fedora" %}
 
+## KISS Linux
+
+User Mederim has come up with a guide for getting Waydroid on KISS Linux:
+
+{% embed url="https://github.com/Mederim/kiss-waydroid" %}
+
+
+
 ## Ubuntu/Debian Based Install Instructions
 
 ### Installation
