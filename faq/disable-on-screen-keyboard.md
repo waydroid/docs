@@ -10,8 +10,7 @@ You can disable on-screen keyboard by two methods,
 
 #### From command-line:
 
-  `# lxc-attach -P /var/lib/waydroid/lxc/ -n waydroid --clear-env pm disable com.android.inputmethod.
-latin`
+  `# lxc-attach -P /var/lib/waydroid/lxc/ -n waydroid --clear-env pm disable com.android.inputmethod.latin`
 
 #### Going to settings app and selecting Apps & notifications:
 
