@@ -12,7 +12,6 @@ The Android runtime environment ships with a minimal customized Android system i
 
 ## Index
 
-
 ### Usage
 
 {% content-ref url="usage/install-on-desktops.md" %}
@@ -31,7 +30,6 @@ The Android runtime environment ships with a minimal customized Android system i
 [waydroid-prop-options.md](usage/waydroid-prop-options.md)
 {% endcontent-ref %}
 
-
 ### FAQ
 
 {% content-ref url="faq/disable-on-screen-keyboard.md" %}
@@ -46,10 +44,21 @@ The Android runtime environment ships with a minimal customized Android system i
 [get-waydroid-to-work-through-a-vm.md](faq/get-waydroid-to-work-through-a-vm.md)
 {% endcontent-ref %}
 
-{% content-ref url="faq/troubleshooting.md" %}
-[troubleshooting.md](faq/troubleshooting.md)
+{% content-ref url="faq/using-adb-with-waydroid.md" %}
+[using-adb-with-waydroid.md](faq/using-adb-with-waydroid.md)
 {% endcontent-ref %}
 
+{% content-ref url="faq/setting-up-waydroid-only-sessions.md" %}
+[setting-up-waydroid-only-sessions.md](faq/setting-up-waydroid-only-sessions.md)
+{% endcontent-ref %}
+
+{% content-ref url="faq/setting-up-a-shared-folder.md" %}
+[setting-up-a-shared-folder.md](faq/setting-up-a-shared-folder.md)
+{% endcontent-ref %}
+
+{% content-ref url="faq/using-custom-waydroid-images.md" %}
+[using-custom-waydroid-images.md](faq/using-custom-waydroid-images.md)
+{% endcontent-ref %}
 
 ### Development:
 
