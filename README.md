@@ -76,7 +76,7 @@ If you have found an issue with Waydroid, please [file a bug](https://github.com
 
 ## Get in Touch
 
-If you want to get in contact with the developers please feel free to join the _Waydroid_ groups in [Matrix](https://matrix.to/#/#waydroid:connolly.tech) or [Telegram](https://t.me/WayDroid).
+If you want to get in contact with the developers please feel free to join the _Waydroid_ groups in [Matrix](https://matrix.to/#/#waydroid:mrcyjanek.net) or [Telegram](https://t.me/WayDroid).
 
 ## Credits
 
