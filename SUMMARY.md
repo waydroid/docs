@@ -2,14 +2,12 @@
 
 * [Waydroid](README.md)
 
-
 ## Usage
 
 * [Install Instructions](usage/install-on-desktops.md)
 * [Install and Run Android Applications](usage/install-and-run-android-applications.md)
 * [Waydroid command line options](usage/waydroid-command-line-options.md)
 * [Waydroid Prop Options](usage/waydroid-prop-options.md)
-
 
 ## FAQ
 
@@ -25,6 +23,7 @@
 
 * [Compile Waydroid - Lineage OS based images](development/compile-waydroid-lineage-os-based-images.md)
 * [Manual Patch Resolution](development/manual-patch-resolution.md)
+* [Compile Waydroid - Using Android-Generic Project](development/compile-waydroid-using-android-generic-project.md)
 
 ## Debugging
 
