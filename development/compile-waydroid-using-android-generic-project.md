@@ -42,6 +42,31 @@ And setup the local build environment:
 
 ### Configuring
 
+#### Legacy Method:
+
+The legacy method is driven by a simple bash script found in vendor/ag/legacy-scripts/waydroid-build/waydroid\_build.sh
+
+```
+bash vendor/ag/legacy-scripts/waydroid-build/waydroid_build.sh --help
+Compiles and packages Waydroid for target arch
+
+Syntax: 
+	waydroid_build [-a|--arch arm|arm64|x86|x86_64] [-c|--clean] [-p|--package] [-r|--rom_name Name]
+options:
+	-a|--arch (option) Specify arch for build (arm, arm64, x86, x86_64)
+	-c|clean     Run 'make clean' before build
+	-p|--package     Package build using ROM_NAME
+	-r|--rom_name (ROM_NAME) Name used for package build filename (ex: Lineage-17.1)
+```
+
+So to compile Waydroid for x86\_64, making clean, and package it in a .zip. You would use this command:
+
+```
+bash vendor/ag/legacy-scripts/waydroid-build/waydroid_build.sh -a x86_64 -c -p
+```
+
+#### GUI Method:
+
 We now want to use AG for the following portions. So in the terminal, type:
 
 ```
