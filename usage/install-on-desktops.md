@@ -36,9 +36,9 @@ User Aleasto has put together a nice guide for Fedora that does not require a 3r
 
 {% embed url="https://copr.fedorainfracloud.org/coprs/aleasto/waydroid" %}
 
-Otherwise, Karuboniru's blog post details the steps needed to get Waydroid up and running with kernel modifications:
+Otherwise, User <a href="https://github.com/discover02">@discover02</a>'s reddit post here details the steps required to run Waydroid:
 
-{% embed url="https://yanqiyu.info/2021/10/25/waydroid-fedora" %}
+{% embed url="https://www.reddit.com/r/Fedora/comments/upn1bz/waydroid_install_guides_fedora_36/" %}
 
 ## KISS Linux
 
