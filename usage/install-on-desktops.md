@@ -42,7 +42,6 @@ Fedora:
 {% embed url="https://gist.github.com/discover02/8af6ffba574820c1ff44af1140165794" %}
 
 Fedora Silverblue/Kinoite/Atomic:
-
 {% embed url="https://gist.github.com/discover02/acc1060997f6ba5b95fce89778d38887" %}
 
 ## KISS Linux
