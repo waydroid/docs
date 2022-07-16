@@ -4,7 +4,7 @@ description: Backup and restore apps and data using Seedvault
 
 # Backup and restore apps and data
 
-(Seedvault)[https://github.com/seedvault-app/seedvault] can be used to taking backup and restore it. It is avalable on LineageOS.
+[Seedvault](https://github.com/seedvault-app/seedvault) can be used to taking backup and restore it. It is preinstalled on Waydroid.
 
 ## Backup:
 ### 1. Choose Seedvault as backup provider
