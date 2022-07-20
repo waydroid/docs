@@ -72,8 +72,6 @@
   * lxc: Mount /dev/null for container
   * lxc: Enable vndk lite for mainline devices
   * lxc: Use v4l2 camera hal on mainline
-  * fix grammar mistakes in the readme
-  * Fix grammar and spelling in README (#104)
   * log: don't panic on ctrlc
   * debian: Add LXC as dependency
   * container: Umount on stop
