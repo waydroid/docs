@@ -41,6 +41,10 @@ The Android runtime environment ships with a minimal customized Android system i
 {% endcontent-ref %}
 
 {% content-ref url="faq/get-waydroid-to-work-through-a-vm.md" %}
+[release-notes.md](faq/release-notes.md)
+{% endcontent-ref %}
+
+{% content-ref url="faq/get-waydroid-to-work-through-a-vm.md" %}
 [get-waydroid-to-work-through-a-vm.md](faq/get-waydroid-to-work-through-a-vm.md)
 {% endcontent-ref %}
 
