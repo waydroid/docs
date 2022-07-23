@@ -4,21 +4,21 @@ description: This also applies to any unsupported GPU's as well (like nVidia)
 
 # Get Waydroid to work through a VM
 
-In order to get Waydroid to work through a VM, you may need to adjust a couple things in waydroid\_base.prop.
+You can force Waydroid to run without GPU acceleration by modifying the waydroid configuration file:
 
 ```
-nano /var/lib/waydroid/waydroid_base.prop
+nano /var/lib/waydroid/waydroid.cfg
 ```
 
-Change both these to what is shown below:
+Add the following lines in the `[properties]` section:
 
 ```
 ro.hardware.gralloc=default
 ro.hardware.egl=swiftshader
 ```
 
-Restart the container afterwards:
+Reload the waydroid configuration with:
 
 ```js
-sudo systemctl restart waydroid-container
+sudo waydroid upgrade -o
 ```
