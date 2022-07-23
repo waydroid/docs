@@ -69,7 +69,7 @@ Waydroid requires the following in order to work properly on your PC:
 
 > _**NOTES**:_
 >
-> * ⚠️ NVIDIA GPUs do not work as of now, try using iGPU of your CPU or software rendering instead.
+> * ⚠️ NVIDIA GPUs do not work as of now, try using iGPU of your CPU or [software rendering](https://docs.waydro.id/faq/get-waydroid-to-work-through-a-vm) instead.
 > * _**Wayland session manager**_ comes with distros running GNOME by default (Ubuntu, Pop!\_OS, Fedora, etc), so no need to install separately.
 > * Other desktop environments/window managers, might not support Wayland out of the box. (KDE Plasma does after 5.21)
 
