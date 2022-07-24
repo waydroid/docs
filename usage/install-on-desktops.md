@@ -75,34 +75,16 @@ Waydroid requires the following in order to work properly on your PC:
 
 ### Install Waydroid
 
-Install ca-certificates, if not already installed.
+Install [deb-get by Martin Wimpress](https://github.com/wimpysworld/deb-get), a tool to install third party .deb files.
 
 ```bash
-sudo apt install ca-certificates
-```
-
-Check your distro (codename) for the next step
-
-```bash
-lsb_release -c
-```
-
-Add the repo to your `sources.list`
-
-* **Add waydroid repo** _(for droidian & ubports, this step can be skipped)_ Replace `DISTRO="bullseye"` with your current target. Options: **focal**, **bullseye**, **hirsute**
-
-```bash
-export DISTRO="bullseye" && \
-sudo curl -# --proto '=https' --tlsv1.2 -Sf https://repo.waydro.id/waydroid.gpg --output /usr/share/keyrings/waydroid.gpg && \
-echo "deb [signed-by=/usr/share/keyrings/waydroid.gpg] https://repo.waydro.id/ $DISTRO main" > ~/waydroid.list && \
-sudo mv ~/waydroid.list /etc/apt/sources.list.d/waydroid.list && \
-sudo apt update
+curl -sL https://raw.githubusercontent.com/wimpysworld/deb-get/main/deb-get | sudo -E bash -s install deb-get
 ```
 
 **install Waydroid:**
 
 ```bash
-sudo apt install waydroid -y
+sudo deb-get install waydroid
 ```
 
 **And start the init process:**
