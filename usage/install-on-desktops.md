@@ -77,8 +77,10 @@ Waydroid requires the following in order to work properly on your PC:
 
 Install [deb-get by Martin Wimpress](https://github.com/wimpysworld/deb-get), a tool to install third party .deb files.
 
+Download the latest version from [from his github releases page](https://github.com/wimpysworld/deb-get/releases/latest) and install it with
+
 ```bash
-curl -sL https://raw.githubusercontent.com/wimpysworld/deb-get/main/deb-get | sudo -E bash -s install deb-get
+sudo apt-get install ./path/to/deb-get_<version>.deb
 ```
 
 **install Waydroid:**
