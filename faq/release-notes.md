@@ -2,6 +2,8 @@
 
 ## Waydroid 1.2.1
 
+### Improvements :-
+
   * Set sys.use_memfd=true if ashmem is not present
   * config: Switch to https for OTA channels
   * add size units and speed in download progress bar
@@ -14,6 +16,8 @@
   * props: Use subprocess for host getprop
 
 ## Waydroid 1.2.0
+
+### Improvements :-
 
   * config: Update waydroid ota channel urls
   * lxc: Get device info props from host
@@ -37,6 +41,8 @@
 
 ## Waydroid 1.1.1
 
+### Improvements :-
+
   * lxc: Include tmp runtime dirs to container
   * session: Move waydroid user data to XDG_DATA_HOME
   * drivers: Allocate binder nodes dynamically
@@ -45,6 +51,8 @@
   * lxc: workaround weird log permission bug
 
 ## Waydroid 1.1.0
+
+### Improvements :-
 
   * tools: Fully restart services
   * container: Don’t burn XDG permissions
