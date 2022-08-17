@@ -131,13 +131,13 @@ waydroid session stop
 sudo waydroid container stop
 ```
 
-Then it is safe to remove Waydroid:
+Then it is safe to remove Waydroid. For example, on debian or ubuntu:
 
 ```bash
 sudo apt remove waydroid
 ```
 
-After you remove Waydroid, reboot.
+After you removed Waydroid, reboot.
 
 Then once logged back in, we need to do a little cleanup:
 
@@ -145,9 +145,4 @@ Then once logged back in, we need to do a little cleanup:
 sudo rm -rf /var/lib/waydroid /home/.waydroid ~/waydroid ~/.share/waydroid ~/.local/share/applications/*aydroid* ~/.local/share/waydroid
 ```
 
-Then can reinstall and run the init command again:
-
-```bash
-sudo apt install waydroid
-sudo waydroid init
-```
+Then you can follow the install instructions again.
