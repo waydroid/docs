@@ -32,13 +32,9 @@ A few of the contributors to sailfishos-open have put together a resource for in
 
 ## Fedora
 
-User Aleasto has put together a nice guide for Fedora that does not require a 3rd party kernel install:
+Use aleasto copr:
 
 {% embed url="https://copr.fedorainfracloud.org/coprs/aleasto/waydroid" %}
-
-Otherwise, Karuboniru's blog post details the steps needed to get Waydroid up and running with kernel modifications:
-
-{% embed url="https://yanqiyu.info/2021/10/25/waydroid-fedora" %}
 
 ## KISS Linux
 
