@@ -44,74 +44,37 @@ User Mederim has come up with a guide for getting Waydroid on KISS Linux:
 
 
 
-## Ubuntu/Debian Based Install Instructions
-
-### Installation
+## Ubuntu/Debian and derivatives
 
 These instructions work for ubuntu focal, ubuntu hirsute, debian bullseye, droidian, ubports, and likely more. We will continue to update this document as the project further develops
 
 ### Install Pre-requisites
 
 ```bash
-sudo apt install curl -y
+sudo apt install curl ca-certificates -y
 ```
-
-Waydroid requires the following in order to work properly on your PC:
-
-* python3
-* lxc
-* curl
-* Wayland session manager _**IMPORTANT!!**_
-
-> _**NOTES**:_
->
-> * ⚠️ NVIDIA GPUs do not work as of now, try using iGPU of your CPU or software rendering instead.
-> * _**Wayland session manager**_ comes with distros running GNOME by default (Ubuntu, Pop!\_OS, Fedora, etc), so no need to install separately.
-> * Other desktop environments/window managers, might not support Wayland out of the box. (KDE Plasma does after 5.21)
 
 ### Install Waydroid
 
-Install ca-certificates, if not already installed.
+* **Add the repo to your `sources.list`** _(for droidian & ubports, this step can be skipped)_\
+Replace `DISTRO="ubuntu-latest"` with your current target. Options: **debian-stable**, **debian-unstable**, **ubuntu-latest**, **ubuntu-rolling**, **ubuntu-devel**
 
 ```bash
-sudo apt install ca-certificates
-```
+export DISTRO="ubuntu-latest"
 
-Check your distro (codename) for the next step
-
-```bash
-lsb_release -c
-```
-
-Add the repo to your `sources.list`
-
-* **Add waydroid repo** _(for droidian & ubports, this step can be skipped)_ Replace `DISTRO="bullseye"` with your current target. Options: **focal**, **bullseye**, **hirsute**
-
-```bash
-export DISTRO="bullseye" && \
 sudo curl -# --proto '=https' --tlsv1.2 -Sf https://repo.waydro.id/waydroid.gpg --output /usr/share/keyrings/waydroid.gpg && \
 echo "deb [signed-by=/usr/share/keyrings/waydroid.gpg] https://repo.waydro.id/ $DISTRO main" > ~/waydroid.list && \
 sudo mv ~/waydroid.list /etc/apt/sources.list.d/waydroid.list && \
 sudo apt update
 ```
 
-**install Waydroid:**
+* **Install waydroid:**
 
 ```bash
 sudo apt install waydroid -y
 ```
 
-**And start the init process:**
-
-```bash
-sudo waydroid init
-```
-
-**Then start the waydroid container service (or just simply reboot):**
-
-```bash
-sudo systemctl start waydroid-container
-```
+Then start Waydroid from the applications menu.
 
 ## Troubleshooting
 
