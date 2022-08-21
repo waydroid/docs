@@ -42,6 +42,14 @@ User Mederim has come up with a guide for getting Waydroid on KISS Linux:
 
 {% embed url="https://github.com/Mederim/kiss-waydroid" %}
 
+## Void Linux
+
+Waydroid can be installed from the official package repository; also check `/usr/share/doc/waydroid/README.voidlinux` after installation for further instructions!
+
+```bash
+sudo xbps-install -S waydroid
+```
+
 
 
 ## Ubuntu/Debian and derivatives
