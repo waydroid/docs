@@ -70,7 +70,7 @@ Replace `DISTRO="ubuntu-latest"` with your current target. Options: **debian-sta
 ```bash
 export DISTRO="ubuntu-latest"
 
-sudo curl -# --proto '=https' --tlsv1.2 -Sf https://repo.waydro.id/waydroid.gpg --output /usr/share/keyrings/waydroid.gpg && \
+sudo curl --proto '=https' --tlsv1.2 -Sf https://repo.waydro.id/waydroid.gpg --output /usr/share/keyrings/waydroid.gpg && \
 echo "deb [signed-by=/usr/share/keyrings/waydroid.gpg] https://repo.waydro.id/ $DISTRO main" > ~/waydroid.list && \
 sudo mv ~/waydroid.list /etc/apt/sources.list.d/waydroid.list && \
 sudo apt update
