@@ -65,10 +65,10 @@ sudo apt install curl ca-certificates -y
 ### Install Waydroid
 
 * **Add the repo to your `sources.list`** _(for droidian & ubports, this step can be skipped)_\
-Replace `DISTRO="ubuntu-latest"` with your current target. Options: **debian-stable**, **debian-unstable**, **ubuntu-latest**, **ubuntu-rolling**, **ubuntu-devel**
+Replace `DISTRO="jammy"` with your current target. Options: **focal**, **jammy**, **ubuntu-devel**, **bookworm**, **bullseye**, **sid**
 
 ```bash
-export DISTRO="ubuntu-latest"
+export DISTRO="jammy"
 
 sudo curl --proto '=https' --tlsv1.2 -Sf https://repo.waydro.id/waydroid.gpg --output /usr/share/keyrings/waydroid.gpg && \
 echo "deb [signed-by=/usr/share/keyrings/waydroid.gpg] https://repo.waydro.id/ $DISTRO main" > ~/waydroid.list && \
