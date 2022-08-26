@@ -10,6 +10,7 @@ To initialize your local repository using the LineageOS trees, use a command lik
 
 ```text
 repo init -u https://github.com/LineageOS/android.git -b lineage-17.1
+repo sync build/make
 ```
 
 Then we grab the Waydroid local\_manifests
