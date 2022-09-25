@@ -54,12 +54,18 @@ sudo xbps-install -S waydroid
 
 ## Ubuntu/Debian and derivatives
 
-These instructions work for ubuntu focal, ubuntu hirsute, debian bullseye, droidian, ubports, and likely more. We will continue to update this document as the project further develops
+These instructions work for Ubuntu focal and hirsute, Debian sid and bullseye, droidian, ubports, and likely more. We will continue to update this document as the project further develops.
 
-### Install Pre-requisites
+### Some Pre-Instructions
+
+1) WayDroid was born to run on Wayland sessions;
+2) WayDroid runs better on Kernel above 5.10.
+
+
+### Install Pre-Requisites
 
 ```bash
-sudo apt install curl ca-certificates -y
+sudo apt install curl ca-certificates lxc gnupg2 apt-transport-https -y
 ```
 
 ### Install Waydroid
@@ -82,8 +88,28 @@ sudo apt update
 sudo apt install waydroid -y
 ```
 
-Then start Waydroid from the applications menu.
+Then start Waydroid from the applications menu, and press OK for automatic downloads.
 
+      Once the downloads is done:
+        1) restart the system;
+        2) start Waydroid from applications menu.
+
+
+### Some Important Tips
+
+1) To install apps on your new Android, proceed like this
+
+        With WayDroid opened, just run on Linux terminal:
+          sudo waydroid app install <your downloaded .apk file>
+
+  
+2) If you are using Firewall, like UFW or GUFW, it’s necessary to configure some rules allowing ways (not being used by Anbox or anything else). It’s good if you have no internet connection. In your terminal you can do this:
+  
+		sudo ufw allow 53
+		sudo ufw allow 67
+		sudo ufw default allow FORWARD
+
+  
 ## Troubleshooting
 
 ### Manually Starting Waydroid
@@ -127,6 +153,7 @@ sudo systemctl restart waydroid-container
 ```
 
 Then we are ready to launch an app, and it will start in multi-window mode
+  
 
 ## Reinstalling Waydroid
 
