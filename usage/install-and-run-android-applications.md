@@ -16,7 +16,7 @@ subaction:
     list                list installed applications
 ```
 
-To launch an app ising CLI, you would want to use the `waydroid app launch <appname>` command:
+To launch an app using CLI, you would want to use the `waydroid app launch <appname>` command:
 
 ```bash
 waydroid app launch xyz.apk
