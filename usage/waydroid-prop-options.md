@@ -10,7 +10,7 @@ Waydroid uses various properties in order to tell the underlying Android system 
 * **waydroid prop set persist.waydroid.width\_padding** 0-9999 \(int\) Adjust width padding 
 * **waydroid prop set waydroid.display\_width** 0-9999 \(int\) \(auto-generated\) Auto generated size of Waydroid screen 
 * **waydroid prop set persist.waydroid.width** 0-9999 \(int\) Used for user to override desired resolution 
-* **waydroid prop set persist.waydroid.suspend** true/false \(bool\) Keep Waydroid awake and do not let container sleep
+* **waydroid prop set persist.waydroid.suspend** true/false \(bool, default: false\) Let the Waydroid container sleep (after the display timeout) when no apps are active
 
 
 
