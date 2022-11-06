@@ -31,7 +31,3 @@ On Arch based distributions there's a "bug" that may appear while working with l
 
 See https://github.com/waydroid/waydroid/issues/136
 You should enable [PSI](https://www.kernel.org/doc/html/latest/accounting/psi.html). Add `psi=1` to kernel command line.
-
-#### Failed to load bpf program: (null)
-
-Add `/etc/systctl.conf` file, `unprivileged_bpf_disabled=0`. Then reboot
