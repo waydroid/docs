@@ -1,6 +1,8 @@
 # Waydroid Prop Options
 
-Waydroid uses various properties in order to tell the underlying Android system how to behave in a few places. To do this, we use the `waydroid prop` command. To unset a prop, `waydroid prop set <property> ""`
+Waydroid uses various properties in order to tell the underlying Android system how to behave in a few places.
+To do this, we use the `waydroid prop set <property> <value>` command.
+To unset a prop, `waydroid prop set <property> ""`
 
 ### Properties
 
@@ -13,6 +15,6 @@ Waydroid uses various properties in order to tell the underlying Android system 
 * **waydroid prop set persist.waydroid.width** 0-9999 \(int\) Used for user to override desired resolution 
 * **waydroid prop set persist.waydroid.suspend** true/false \(bool, default: false\) Let the Waydroid container sleep (after the display timeout) when no apps are active
 
-
-
-
+#### Modify app behaviour
+* **waydroid prop set persist.waydroid.fake_touch** A-z (string) Comma ',' separated list of package names for which mouse inputs should be interpreted as touch inputs instead. Supports wildcards with '\*'
+* **waydroid prop set persist.waydroid.fake_wifi** A-z (string) Comma ',' separated list of package names for which the system will always appear as if connected to wifi. Supports wildcards with '\*'
