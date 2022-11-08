@@ -3,13 +3,13 @@ description: Correct the colors when using a Mutter shell
 ---
 
 
-#Color Correction In Mutter
+# Color Correction In Mutter
 
-###Using Patched Mutter
+### Using Patched Mutter
 
 If you're using the patched Mutter version from the Waydroid repo with the color inversion patch (or Gnome 42 or higher), or mutter-rounded, then Waydroid should display properly.
 
-###Using Standard Mutter
+### Using Standard Mutter
 
 If you aren't able to install the patched version of Mutter, you can run this in the host shell:
 

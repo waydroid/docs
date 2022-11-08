@@ -56,6 +56,14 @@ The Android runtime environment ships with a minimal customized Android system i
 [setting-up-a-shared-folder.md](faq/setting-up-a-shared-folder.md)
 {% endcontent-ref %}
 
+{% content-ref url="faq/color-correction-in-mutter.md" %}
+[color-correction-in-mutter.md](faq/color-correction-in-mutter.md)
+{% endcontent-ref %}
+
+{% content-ref url="faq/backup-restore-apps-and-data.md" %}
+[backup-restore-apps-and-data.md](faq/backup-restore-apps-and-data.md)
+{% endcontent-ref %}
+
 {% content-ref url="faq/using-custom-waydroid-images.md" %}
 [using-custom-waydroid-images.md](faq/using-custom-waydroid-images.md)
 {% endcontent-ref %}

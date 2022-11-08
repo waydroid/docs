@@ -17,6 +17,8 @@
 * [Using ADB with Waydroid](faq/using-adb-with-waydroid.md)
 * [Setting up Waydroid only Sessions](faq/setting-up-waydroid-only-sessions.md)
 * [Setting up a shared folder](faq/setting-up-a-shared-folder.md)
+* [Color correction in Mutter](faq/color-correction-in-mutter.md)
+* [Backup/Restore apps and data](faq/backup-restore-apps-and-data.md)
 * [Using custom Waydroid images](faq/using-custom-waydroid-images.md)
 
 ## Development
