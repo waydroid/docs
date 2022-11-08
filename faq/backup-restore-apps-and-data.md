@@ -20,7 +20,7 @@ A passphrase is shown. This is used for encrytion. It wil asked on restoration.
 ### 3. Take backup
 Tap on 'Backup' from three-dots menu.
 
-![](../.gitbook/assets/backup-backup-now.png.png)
+![](../.gitbook/assets/backup-backup-now.png)
 
 Successfully backed up. The backup data will be at `~/.local/share/waydroid/meda/0/.SeedVaultAndroidBackup
 `
@@ -40,6 +40,7 @@ You will be asked to choose storage.
 ### 2. Enter passphrase for decryption
 
 You need to enter the passphrased there was shown while setting up Seedvault
+
 ![](../.gitbook/assets/backup-restore-passphrase.png)
 
 ### 3. Restore
