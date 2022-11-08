@@ -16,5 +16,5 @@ To unset a prop, `waydroid prop set <property> ""`
 * **waydroid prop set persist.waydroid.suspend** true/false \(bool, default: false\) Let the Waydroid container sleep (after the display timeout) when no apps are active
 
 #### Modify app behaviour
-* **waydroid prop set persist.waydroid.fake_touch** A-z (string) Comma ',' separated list of package names for which mouse inputs should be interpreted as touch inputs instead. Supports wildcards with '\*'
-* **waydroid prop set persist.waydroid.fake_wifi** A-z (string) Comma ',' separated list of package names for which the system will always appear as if connected to wifi. Supports wildcards with '\*'
+* **waydroid prop set persist.waydroid.fake_touch** (string) Comma ',' separated list of package names for which mouse inputs should be interpreted as touch inputs instead. Supports wildcards with `*`. For example, set this to `"com.rovio.*"` to match all games by Rovio
+* **waydroid prop set persist.waydroid.fake_wifi** (string) Comma ',' separated list of package names for which the system will always appear as if connected to wifi. Supports wildcards with `*`. For example, set this to `"com.gameloft.*"` to match all games by Gameloft
