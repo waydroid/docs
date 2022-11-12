@@ -16,18 +16,20 @@ subaction:
     list                list installed applications
 ```
 
-To launch an app using CLI, you would want to use the `waydroid app launch <appname>` command:
-
-```bash
-waydroid app launch xyz.apk
-```
-
-You can also install Android applications from the command line.
+You can install Android applications with:
 
 ```bash
 waydroid app install xyz.apk
 ```
 
+Then you can launch the application through your desktop Application Menu.
+
+If you know the Android package name of the app (`com.xxx.yyy`) you can also use the commandline with:
+
+```bash
+waydroid app launch com.foo.bar
+```
+
 The apk files you will sometimes find on the internet tend to only have arm support, and will therefore not work on x86\_64.
 
-You may want to install [F-Droid](https://f-droid.org) to get applications graphically. Note that the Google Play Store will not work as is, because it relies on the proprietary Google Play Services, which are not installed.
+You may want to install [F-Droid](https://f-droid.org) to get applications graphically. Or use the Play Store if you installed a GAPPS image.
