@@ -54,8 +54,6 @@ sudo xbps-install -S waydroid
 
 ## Ubuntu/Debian and derivatives
 
-These instructions work for ubuntu focal, ubuntu hirsute, debian bullseye, droidian, ubports, and likely more. We will continue to update this document as the project further develops
-
 ### Install Pre-requisites
 
 ```bash
@@ -69,10 +67,10 @@ Replace `DISTRO="jammy"` with your current target. Options: **focal**, **jammy**
 
 ```bash
 export DISTRO="jammy"
-
-sudo curl --proto '=https' --tlsv1.2 -Sf https://repo.waydro.id/waydroid.gpg --output /usr/share/keyrings/waydroid.gpg && \
-echo "deb [signed-by=/usr/share/keyrings/waydroid.gpg] https://repo.waydro.id/ $DISTRO main" > ~/waydroid.list && \
-sudo mv ~/waydroid.list /etc/apt/sources.list.d/waydroid.list && \
+```
+```bash
+sudo curl --proto '=https' --tlsv1.2 -Sf https://repo.waydro.id/waydroid.gpg --output /usr/share/keyrings/waydroid.gpg
+echo "deb [signed-by=/usr/share/keyrings/waydroid.gpg] https://repo.waydro.id/ $DISTRO main" | sudo tee /etc/apt/sources.list.d/waydroid.list
 sudo apt update
 ```
 
