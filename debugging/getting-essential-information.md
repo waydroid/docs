@@ -8,13 +8,13 @@ Useful information belongs in two places the methods of getting this information
 
 `sudo waydroid logcat > ~/waydroid-logcat.txt`
 
-It is also important to make sure your kernel supports binder and either ashmem or memfd, you can verify support in your kernel by using this command. 
-
-`zgrep -i -e android -e memfd -e ashmem /proc/config.gz`
-
-Or on Debian based distros:
+It is also important to make sure your kernel supports binder and either ashmem or memfd, you can verify support in your kernel by using one of the following commands. 
 
 `grep -i -e android -e memfd -e ashmem "/boot/config-$(uname -r)"`
+
+Or on some distros:
+
+`zgrep -i -e android -e memfd -e ashmem /proc/config.gz`
 
 If you do not have support, you may need to change to a supported kernel or look at patched anbox-modules.dkms.
 
