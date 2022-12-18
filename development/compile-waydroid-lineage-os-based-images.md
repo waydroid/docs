@@ -9,14 +9,14 @@ To get started with Android/LineageOS, you'll need to get familiar with [Repo](h
 To initialize your local repository using the LineageOS trees, use a command like this:
 
 ```text
-repo init -u https://github.com/LineageOS/android.git -b lineage-17.1
+repo init -u https://github.com/LineageOS/android.git -b lineage-18.1
 repo sync build/make
 ```
 
 Then we grab the Waydroid local\_manifests
 
 ```text
-wget -O - https://raw.githubusercontent.com/waydroid/android_vendor_waydroid/lineage-17.1/manifest_scripts/generate-manifest.sh | bash
+wget -O - https://raw.githubusercontent.com/waydroid/android_vendor_waydroid/lineage-18.1/manifest_scripts/generate-manifest.sh | bash
 ```
 
 ### Syncing

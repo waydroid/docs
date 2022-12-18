@@ -13,13 +13,13 @@ To get started with Android/Lineage OS, you'll need to get familiar with [Repo](
 To initialize your local repository using the Lineage OS trees, use a command like this:
 
 ```
-repo init -u https://github.com/LineageOS/android.git -b lineage-17.1
+repo init -u https://github.com/LineageOS/android.git -b lineage-18.1
 ```
 
 Then we grab the Android-Generic and Waydroid bits:
 
 ```
-wget -O - https://raw.githubusercontent.com/waydroid/android_vendor_waydroid/lineage-17.1/manifest_scripts/generate-manifest.sh | bash
+wget -O - https://raw.githubusercontent.com/waydroid/android_vendor_waydroid/lineage-18.1/manifest_scripts/generate-manifest.sh | bash
 ```
 
 ```
