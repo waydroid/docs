@@ -57,6 +57,7 @@ sudo xbps-install -S waydroid
 
 * Load other required modules:
 ```bash
+sudo mkdir /etc/modules-load.d
 echo "nft_xfrm" | sudo tee -a /etc/modules-load.d/waydroid.conf
 sudo modprobe nft_xfrm
 ```
