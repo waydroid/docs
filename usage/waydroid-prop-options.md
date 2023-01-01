@@ -13,7 +13,7 @@ To unset a prop, `waydroid prop set <property> ""`
 * **waydroid prop set persist.waydroid.width\_padding** 0-9999 \(int\) Adjust width padding
 * **waydroid prop set persist.waydroid.width** 0-9999 \(int\) Used for user to override desired resolution
 * **waydroid prop set persist.waydroid.height** 0-9999 \(int\) Used for user to override desired resolution
-* **waydroid prop set persist.waydroid.suspend** true/false \(bool, default: false\) Let the Waydroid container sleep (after the display timeout) when no apps are active
+* **waydroid prop set persist.waydroid.suspend** true/false \(bool, default: true on kernel 4.9 and later\) Let the Waydroid container sleep (after the display timeout) when no apps are active
 
 #### Modify app behaviour
 * **waydroid prop set persist.waydroid.fake_touch** (string, 91 character limit) Comma separated list of package names for which mouse inputs should be interpreted as touch inputs instead. Supports wildcards with `*`. For example, set this to `"com.rovio.*"` to match all games by Rovio.
