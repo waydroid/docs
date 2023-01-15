@@ -32,9 +32,18 @@ A few of the contributors to sailfishos-open have put together a resource for in
 
 ## Fedora
 
-Use aleasto copr:
+Waydroid can be installed from the official package repository.
 
-{% embed url="https://copr.fedorainfracloud.org/coprs/aleasto/waydroid" %}
+```bash
+sudo dnf install waydroid
+sudo systemctl enable --now waydroid-container
+```
+
+After installing, launch Waydroid from the applications menu and procede with the initialization by pasting these URLs in the OTA fields:
+
+System OTA: `https://ota.waydro.id/system`
+
+Vendor OTA: `https://ota.waydro.id/vendor`
 
 ## KISS Linux
 
