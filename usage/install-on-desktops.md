@@ -74,28 +74,21 @@ sudo modprobe nft_xfrm
 
 ## Ubuntu/Debian and derivatives
 
-### Install Pre-requisites
+For Droidian and Ubuntu Touch, skip directly to the last step
 
+* Install pre-requisites
 ```bash
 sudo apt install curl ca-certificates -y
 ```
 
-### Install Waydroid
-
-* **Add the repo to your `sources.list`** _(for droidian & ubports, this step can be skipped)_\
-Replace `DISTRO="jammy"` with your current target. Options: **focal**, **jammy**, **ubuntu-devel**, **bookworm**, **bullseye**, **sid**
-
+* Add the official repository
 ```bash
-export DISTRO="jammy"
+curl https://repo.waydro.id | sudo bash
 ```
-```bash
-sudo curl --proto '=https' --tlsv1.2 -Sf https://repo.waydro.id/waydroid.gpg --output /usr/share/keyrings/waydroid.gpg
-echo "deb [signed-by=/usr/share/keyrings/waydroid.gpg] https://repo.waydro.id/ $DISTRO main" | sudo tee /etc/apt/sources.list.d/waydroid.list
-sudo apt update
-```
+If the script fails to detect your distribution, you can provide a valid option by appending `-s <DISTRO>`.
+Currently supported values are: **focal**, **jammy**, **kinetic** (alias for ubuntu-devel), **ubuntu-devel**, **bookworm**, **bullseye**, **sid**
 
-* **Install waydroid:**
-
+* Install waydroid
 ```bash
 sudo apt install waydroid -y
 ```
