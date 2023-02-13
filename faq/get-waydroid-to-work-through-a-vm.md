@@ -17,7 +17,7 @@ ro.hardware.gralloc=default
 ro.hardware.egl=swiftshader
 ```
 
-Reload the waydroid configuration with:
+Apply the configuration with:
 
 ```js
 sudo waydroid upgrade -o
