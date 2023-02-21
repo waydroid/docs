@@ -32,6 +32,10 @@ The Android runtime environment ships with a minimal customized Android system i
 
 ### FAQ
 
+{% content-ref url="faq/google-play-certification.md" %}
+[google-play-certification.md](faq/google-play-certification.md)
+{% endcontent-ref %}
+
 {% content-ref url="faq/disable-on-screen-keyboard.md" %}
 [disable-on-screen-keyboard.md](faq/disable-on-screen-keyboard.md)
 {% endcontent-ref %}
