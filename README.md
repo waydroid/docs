@@ -8,7 +8,7 @@ Waydroid uses Linux namespaces (user, pid, uts, net, mount, ipc) to run a full A
 
 The Android inside the container has direct access to needed hardwares.
 
-The Android runtime environment ships with a minimal customized Android system image based on the [LineageOS](https://lineageos.org). The used image is currently based on Android 10
+The Android runtime environment ships with a minimal customized Android system image based on the [LineageOS](https://lineageos.org). The used image is currently based on Android 11
 
 ## Index
 
