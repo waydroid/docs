@@ -22,13 +22,13 @@ Tap on 'Backup' from three-dots menu.
 
 ![](../.gitbook/assets/backup-backup-now.png)
 
-Successfully backed up. The backup data will be at `~/.local/share/waydroid/meda/0/.SeedVaultAndroidBackup
+Successfully backed up. The backup data will be at `~/.local/share/waydroid/media/0/.SeedVaultAndroidBackup
 `
 
 ## Restore
 ### 1. Copy backup contents
 
-Copy the `.SeedVaultAndroidBackup` to  `~/.local/share/waydroid/meda/0/`
+Copy the `.SeedVaultAndroidBackup` to  `~/.local/share/waydroid/media/0/`
 
 ### 2. Start restore activity.
 You need to run `am start com.stevesoltys.seedvault/.restore.RestoreActivity` in shell inorder to start the restoration activity. You can this either on `waydroid shell` or `adb shell`.
