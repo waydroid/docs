@@ -2,7 +2,7 @@
 
 ## Getting started
 
-To get started with Android/LineageOS, you'll need to get familiar with [Repo](https://source.android.com/source/using-repo.html) and [Version Control with Git](https://source.android.com/source/version-control.html).
+To get started with Android/LineageOS, you'll need to get familiar with [Repo](https://source.android.com/source/using-repo.html) and [it's workflow with Git](https://source.android.com/docs/setup/create/coding-tasks).
 
 ### Initializing
 
