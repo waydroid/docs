@@ -95,6 +95,12 @@ sudo apt install waydroid -y
 
 Then start Waydroid from the applications menu.
 
+## NixOS
+
+NixOS community has a wiki page for WayDroid:
+
+{% embed url="https://nixos.wiki/wiki/WayDroid" %}
+
 ## Troubleshooting
 
 ### Manually Starting Waydroid
