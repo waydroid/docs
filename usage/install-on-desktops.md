@@ -45,6 +45,21 @@ System OTA: `https://ota.waydro.id/system`
 
 Vendor OTA: `https://ota.waydro.id/vendor`
 
+## Fedora Silverblue/Kinoite/...
+
+Waydroid can be installed from the official package repository.
+
+```bash
+rpm-ostree install waydroid
+```
+
+Initializing via GUI will fail with `urlopen error [Errno 13] Permission denied`, use
+```bash
+sudo waydroid init -c https://ota.waydro.id/system -v https://ota.waydro.id/vendor
+```
+
+The systemd service does not works (see https://github.com/waydroid/waydroid/issues/1032), start manually instead.
+
 ## KISS Linux
 
 User Mederim has come up with a guide for getting Waydroid on KISS Linux:
