@@ -58,7 +58,7 @@ Initializing via GUI will fail with `urlopen error [Errno 13] Permission denied`
 sudo waydroid init -c https://ota.waydro.id/system -v https://ota.waydro.id/vendor
 ```
 
-The systemd service does not works (see https://github.com/waydroid/waydroid/issues/1032), start manually instead.
+The systemd service does not work (see https://github.com/waydroid/waydroid/issues/1032), start manually instead.
 
 ## KISS Linux
 
