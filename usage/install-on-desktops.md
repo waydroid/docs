@@ -59,19 +59,6 @@ Waydroid can be installed from the official package repository; also check `/usr
 sudo xbps-install -S waydroid
 ```
 
-## PopOS
-
-* Install the required kernel modules:
-{% embed url="https://github.com/choff/anbox-modules#install-instruction" %}
-
-* Load other required modules:
-```bash
-sudo mkdir /etc/modules-load.d
-echo "nft_xfrm" | sudo tee -a /etc/modules-load.d/waydroid.conf
-sudo modprobe nft_xfrm
-```
-* Follow the install instructions for Ubuntu below
-
 ## Ubuntu/Debian and derivatives
 
 For Droidian and Ubuntu Touch, skip directly to the last step
