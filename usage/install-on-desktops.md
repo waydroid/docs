@@ -14,9 +14,9 @@ Thanks to the Postmarket community, you can also find instructions and troublesh
 
 ## Mobian
 
-The community was kind enough to post the install instructions for Mobian on their Doku pages:
+The community was kind enough to post the install instructions for Mobian on wiki:
 
-{% embed url="https://wiki.mobian-project.org/doku.php?id=waydroid" %}
+{% embed url=""https://wiki.debian.org/Mobian/How-to#How_to_run_Android_apps_via_Waydroid %}
 
 ## Zorin OS
 
