@@ -36,7 +36,6 @@ Waydroid can be installed from the official package repository.
 
 ```bash
 sudo dnf install waydroid
-sudo systemctl enable --now waydroid-container
 ```
 
 After installing, launch Waydroid from the applications menu and procede with the initialization by pasting these URLs in the OTA fields:
