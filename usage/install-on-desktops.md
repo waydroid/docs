@@ -102,9 +102,9 @@ NixOS community has a wiki page for WayDroid:
 
 {% embed url="https://nixos.wiki/wiki/WayDroid" %}
 
-## Troubleshooting
+# Troubleshooting
 
-### Manually Starting Waydroid
+## Manually Starting Waydroid
 
 To start Waydroid without systemctl, you need to follow a few simple steps
 
@@ -122,7 +122,7 @@ waydroid session start
 
 After that starts and you see "Android with user 0 is ready", it is safe to launch an app from the applications menu, or
 
-### Launch Waydroid In Full-Screen Mode:
+## Launch Waydroid In Full-Screen Mode:
 
 _(This can be run while Waydroid is running, or used to start it in full-screen mode)_
 
@@ -130,7 +130,7 @@ _(This can be run while Waydroid is running, or used to start it in full-screen 
 waydroid show-full-ui
 ```
 
-### Launch Waydroid In Multi-Window Mode:
+## Launch Waydroid In Multi-Window Mode:
 
 First we need to set the property while a Waydroid session is running:
 
