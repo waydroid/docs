@@ -138,10 +138,10 @@ First we need to set the property while a Waydroid session is running:
 waydroid prop set persist.waydroid.multi_windows true
 ```
 
-After that, we can restart the container:
+After that, we can restart the session:
 
 ```
-sudo systemctl restart waydroid-container
+waydroid session stop
 ```
 
 Then we are ready to launch an app, and it will start in multi-window mode
