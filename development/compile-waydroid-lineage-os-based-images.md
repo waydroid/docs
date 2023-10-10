@@ -64,12 +64,16 @@ make vendorimage -j$(nproc --all)
 ```
 ### Image Generation From Sparse Image:
 
-Make sure simg2img is installed and:
+The default output of the AOSP build system is an "Android Sparse Image". We need raw fileystems instead.
+From the same terminal where you just built a system and a vendor image, run:
 
 ```text
-simg2img system.img output_dir/system.img
-simg2img vendor.img output_dir/vendor.img
+simg2img $OUT/system.img ~/system.img
+simg2img $OUT/vendor.img ~/vendor.img
 ```
+
+to obtain your target raw images at ~/system.img and ~/vendor.img
+
 ## Troubleshooting
 
 ### Local Manifest:
