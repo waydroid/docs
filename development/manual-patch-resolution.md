@@ -14,13 +14,13 @@ Notice how the one starting with "0015-" failed, but the patch resolution it fou
 First, you apply the patch manually:
 
 ```text
-git am "__patchLocationHere__"
+git am "<SOURCES_ROOT>/vendor/extra/waydroid-patches/base-patches-<AOSP_SDK_VERSION>/<PATCH_PATH>"
 ```
 
 You can expect that to fail, but it's crucial to the next step. Next you patch the file again, but using the "patch" command
 
 ```text
-patch -p1 < "__patchLocationHere__"
+patch -p1 < "<SOURCES_ROOT>/vendor/extra/waydroid-patches/base-patches-<AOSP_SDK_VERSION>/<PATCH_PATH>"
 ```
 
 This will generate the .orig & .rej files to help narrow down what you need to fix. Once the conflicting parts \(what's in the .rej files\) are resolved, delete the .rej & .orig files, then stage the files:
