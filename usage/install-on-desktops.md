@@ -44,20 +44,13 @@ System OTA: `https://ota.waydro.id/system`
 
 Vendor OTA: `https://ota.waydro.id/vendor`
 
-## Fedora Silverblue/Kinoite/...
+### Silverblue/Kinoite/...
 
-Waydroid can be installed from the official package repository.
+The same instructions apply to the Fedora Immutable variants, but you should use `rpm-ostree` instead of `dnf`
 
 ```bash
-rpm-ostree install waydroid
+sudo rpm-ostree install waydroid
 ```
-
-Initializing via GUI will fail with `urlopen error [Errno 13] Permission denied`, use
-```bash
-sudo waydroid init -c https://ota.waydro.id/system -v https://ota.waydro.id/vendor
-```
-
-The systemd service does not work (see https://github.com/waydroid/waydroid/issues/1032), start manually instead.
 
 ## KISS Linux
 
