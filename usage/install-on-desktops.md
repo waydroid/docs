@@ -38,7 +38,7 @@ Waydroid can be installed from the official package repository.
 sudo dnf install waydroid
 ```
 
-After installing, launch Waydroid from the applications menu and procede with the initialization by pasting these URLs in the OTA fields:
+After installing, launch Waydroid from the applications menu and proceed with the initialization by pasting these URLs in the OTA fields:
 
 System OTA: `https://ota.waydro.id/system`
 
