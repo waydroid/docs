@@ -49,7 +49,7 @@ Vendor OTA: `https://ota.waydro.id/vendor`
 The same instructions apply to the Fedora Immutable variants, but you should use `rpm-ostree` instead of `dnf`
 
 ```bash
-sudo rpm-ostree install waydroid
+rpm-ostree install waydroid
 ```
 
 ## KISS Linux
