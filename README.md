@@ -72,6 +72,10 @@ The Android runtime environment ships with a minimal customized Android system i
 [using-custom-waydroid-images.md](faq/using-custom-waydroid-images.md)
 {% endcontent-ref %}
 
+{% content-ref url="faq/install-system-app.md" %}
+[install-system-app.md](faq/install-system-app.md)
+{% endcontent-ref %}
+
 ### Development:
 
 {% content-ref url="development/compile-waydroid-lineage-os-based-images.md" %}
