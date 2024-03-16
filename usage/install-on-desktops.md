@@ -12,12 +12,6 @@ Thanks to the Postmarket community, you can also find instructions and troublesh
 
 {% embed url="https://wiki.postmarketos.org/wiki/Waydroid" %}
 
-## Mobian
-
-The community was kind enough to post the install instructions for Mobian on their Doku pages:
-
-{% embed url="https://wiki.mobian-project.org/doku.php?id=waydroid" %}
-
 ## Zorin OS
 
 User @Aman9das has put together a detailed guide for installing Waydroid on Zorin OS:
@@ -80,7 +74,7 @@ sudo apt install curl ca-certificates -y
 curl https://repo.waydro.id | sudo bash
 ```
 If the script fails to detect your distribution, you can provide a valid option by appending `-s <DISTRO>`.
-Currently supported values are: **focal**, **jammy**, **kinetic**, **lunar**, **mantic**, **bookworm**, **bullseye**, **sid**
+Currently supported values are: **mantic**, **focal**, **jammy**, **kinetic**, **lunar**, **noble**, **bookworm**, **bullseye**, **trixie**, **sid**
 
 * Install waydroid
 ```bash
