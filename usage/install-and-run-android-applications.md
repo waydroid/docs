@@ -44,6 +44,6 @@ rm -f /tmp/F-Droid.apk
 waydroid app launch org.fdroid.fdroid
 ```
 
-With the F-Droid you may install more apps. You can also use the Play Store if you installed a GAPPS image.
+With the F-Droid you may install more apps. You can also use the Play Store if you installed a [GAPPS image](../faq/using-custom-waydroid-images).
 
 
