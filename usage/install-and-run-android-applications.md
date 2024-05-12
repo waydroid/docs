@@ -1,5 +1,8 @@
 # Install and Run Android Applications
 
+Once installed you can launch Android application through your desktop Application Menu.
+For example try to find a Contacts app.
+
 Waydroid is able to perform a few various operations found by using the `waydroid app -h` command:
 
 ```bash
@@ -16,20 +19,31 @@ subaction:
     list                list installed applications
 ```
 
-You can install Android applications with:
+So to see a list of all available apps use:
 
-```bash
-waydroid app install xyz.apk
+```sh
+waydroid app list
 ```
 
-Then you can launch the application through your desktop Application Menu.
+Now you see the Android package name of the app (it looks like `com.xxx.yyy`) and you can launch it from the commandline with `waydroid app launch`:
 
-If you know the Android package name of the app (`com.xxx.yyy`) you can also use the commandline with:
-
-```bash
-waydroid app launch com.foo.bar
+```sh
+waydroid app launch com.android.contacts
 ```
 
-The apk files you will sometimes find on the internet tend to only have arm support, and will therefore not work on x86\_64.
 
-You may want to install [F-Droid](https://f-droid.org) to get applications graphically. Or use the Play Store if you installed a GAPPS image.
+You can install an Android application from `*.apk` package with `waydroid app install some_app.apk`.
+The apk files you will sometimes find on the internet tend to only have ARM support, and will therefore not work on x86\_64.
+
+As an example let's install the [F-Droid](https://f-droid.org) libre app store to get applications graphically:
+
+```sh
+wget -O /tmp/F-Droid.apk https://f-droid.org/F-Droid.apk
+waydroid app install /tmp/F-Droid.apk
+rm -f /tmp/F-Droid.apk
+waydroid app launch org.fdroid.fdroid
+```
+
+With the F-Droid you may install more apps. You can also use the Play Store if you installed a GAPPS image.
+
+
