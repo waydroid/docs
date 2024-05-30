@@ -87,7 +87,7 @@ Then start Waydroid from the applications menu.
 
 NixOS community has a wiki page for WayDroid:
 
-{% embed url="https://nixos.wiki/wiki/WayDroid" %}
+{% embed url="https://wiki.nixos.org/wiki/WayDroid" %}
 
 # Troubleshooting
 
