@@ -71,7 +71,7 @@ sudo apt install curl ca-certificates -y
 
 * Add the official repository
 ```bash
-curl https://repo.waydro.id | sudo bash
+wget -nv -O /tmp/waydroid_install.sh https://repo.waydro.id && sudo bash /tmp/waydroid_install.sh && rm -f /tmp/waydroid_instal.sh
 ```
 If the script fails to detect your distribution, you can provide a valid option by appending `-s <DISTRO>`.
 Currently supported values are: **mantic**, **focal**, **jammy**, **kinetic**, **lunar**, **noble**, **bookworm**, **bullseye**, **trixie**, **sid**
