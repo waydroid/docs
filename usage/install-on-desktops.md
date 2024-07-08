@@ -64,6 +64,8 @@ sudo xbps-install -S waydroid
 
 For Droidian and Ubuntu Touch, skip directly to the last step
 
+Make sure you have Wayland Session enabled (Ubuntu 22.04+) [Guide](https://linuxconfig.org/how-to-enable-disable-wayland-on-ubuntu-22-04-desktop}
+
 * Install pre-requisites
 ```bash
 sudo apt install curl ca-certificates -y
