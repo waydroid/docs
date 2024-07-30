@@ -45,7 +45,7 @@ The same instructions apply to the Fedora Immutable variants, but you should use
 ```bash
 rpm-ostree install waydroid
 ```
-## openSUSE Tumbleweed/SLowroll
+## openSUSE Tumbleweed/Slowroll
 
 User @runa-chin had created a detailed guide about installing Waydroid on openSUSE Tumbleweed or openSUSE Slowroll:
 
