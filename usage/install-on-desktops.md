@@ -47,7 +47,7 @@ rpm-ostree install waydroid
 ```
 ## openSUSE Tumbleweed/SLowroll
 
-User @runa-chin had created a detailed guide about installing Waydroid on openSUSE Tumbleweed or openSUSE Slowroll
+User @runa-chin had created a detailed guide about installing Waydroid on openSUSE Tumbleweed or openSUSE Slowroll:
 
 {% embed url="https://github.com/waydroid/waydroid/discussions/1463" %}
 
