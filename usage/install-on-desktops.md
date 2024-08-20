@@ -98,6 +98,17 @@ NixOS community has a wiki page for WayDroid:
 
 {% embed url="https://wiki.nixos.org/wiki/Waydroid" %}
 
+## Clearlinux
+
+Waydroid can be added via swupd
+```bash
+sudo swupd bundle-add waydroid
+```
+Afterwards, initialize waydroid and start the service manually.
+For more detailed instructions and troubleshooting, visit the community page
+
+{% embed url="https://community.clearlinux.org/t/waydroid-on-clear-linux/7470/12" %}
+
 # Troubleshooting
 
 ## Manually Starting Waydroid
