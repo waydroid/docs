@@ -104,7 +104,11 @@ Waydroid can be added via swupd
 ```bash
 sudo swupd bundle-add waydroid
 ```
-Afterwards, initialize waydroid and start the service manually.
+Afterwards, initialize waydroid, then use the following workaround for apparmor since Clearlinux does not support it
+```bash
+sudo sed -i '/^lxc\.apparmor\.profile/s/^/# /' /var/lib/waydroid/lxc/waydroid/config
+```
+Once complete, enable and start waydroid-container.service via systemctl.
 For more detailed instructions and troubleshooting, visit the community page
 
 {% embed url="https://community.clearlinux.org/t/waydroid-on-clear-linux/7470/12" %}
