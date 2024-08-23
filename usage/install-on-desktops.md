@@ -67,7 +67,9 @@ sudo xbps-install -S waydroid
 
 ## Ubuntu/Debian and derivatives
 
-For Droidian and Ubuntu Touch, skip directly to the last step
+For Droidian, skip directly to the last step
+
+For Ubuntu Touch, these steps are not needed
 
 Make sure you have Wayland Session enabled (Ubuntu 22.04+)
 
