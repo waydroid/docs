@@ -42,6 +42,7 @@ sudo waydroid init -s VANILLA -c https://ota.waydro.id/system -v https://ota.way
 
 # Use this command for GAPPS images
 sudo waydroid init -s GAPPS -c https://ota.waydro.id/system -v https://ota.waydro.id/vendor -f
+```
 
 ### Any Atomic Variants
 
