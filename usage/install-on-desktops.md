@@ -1,6 +1,6 @@
 # Install Instructions
 
-## Arch Linux&#x20;
+## Arch Linux
 
 Some of our friends have started putting together all the install instructions for Arch over on the arch wiki:
 
@@ -11,12 +11,6 @@ Some of our friends have started putting together all the install instructions f
 Thanks to the Postmarket community, you can also find instructions and troubleshooting tips on their wiki:
 
 {% embed url="https://wiki.postmarketos.org/wiki/Waydroid" %}
-
-## Zorin OS
-
-User @Aman9das has put together a detailed guide for installing Waydroid on Zorin OS:
-
-{% embed url="https://github.com/Aman9das/Waydroid_Setup_Guide" %}
 
 ## Sailfish OS
 
@@ -71,7 +65,7 @@ Waydroid can be installed from the official package repository; also check `/usr
 sudo xbps-install -S waydroid
 ```
 
-## Ubuntu/Debian and derivatives
+## Any Debian-based distributions (Ubuntu, Linux Mint, Zorin OS, and more)
 
 For Droidian and Ubuntu Touch, skip directly to the last step
 
