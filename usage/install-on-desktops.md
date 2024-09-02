@@ -26,21 +26,26 @@ A few of the contributors to sailfishos-open have put together a resource for in
 
 ## Fedora
 
+### Workstation, Spins, and another variants
+
 Waydroid can be installed from the official package repository.
 
 ```bash
 sudo dnf install waydroid
 ```
 
-After installing, launch Waydroid from the applications menu and proceed with the initialization by pasting these URLs in the OTA fields:
+After installing, enter this command to create initiation on Waydroid.
 
-System OTA: `https://ota.waydro.id/system`
+```bash
+# Use this command for VANILLA images
+sudo waydroid init -s VANILLA -c https://ota.waydro.id/system -v https://ota.waydro.id/vendor -f
 
-Vendor OTA: `https://ota.waydro.id/vendor`
+# Use this command for GAPPS images
+sudo waydroid init -s GAPPS -c https://ota.waydro.id/system -v https://ota.waydro.id/vendor -f
 
-### Silverblue/Kinoite/...
+### Any Atomic Variants
 
-The same instructions apply to the Fedora Immutable variants, but you should use `rpm-ostree` instead of `dnf`
+The same instructions apply to any Fedora Atomic variants, but you should use `rpm-ostree` instead of `dnf`
 
 ```bash
 rpm-ostree install waydroid
