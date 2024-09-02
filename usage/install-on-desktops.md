@@ -98,13 +98,13 @@ NixOS community has a wiki page for WayDroid:
 
 {% embed url="https://wiki.nixos.org/wiki/Waydroid" %}
 
-## Clearlinux
+## Intel's Clear Linux OS
 
 Waydroid can be added via swupd
 ```bash
 sudo swupd bundle-add waydroid
 ```
-Afterwards, initialize waydroid, then use the following workaround for apparmor since Clearlinux does not support it
+Afterwards, initialize waydroid, then use the following workaround for apparmor since CL does not support it
 ```bash
 sudo sed -i '/^lxc\.apparmor\.profile/s/^/# /' /var/lib/waydroid/lxc/waydroid/config
 ```
