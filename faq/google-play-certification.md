@@ -10,3 +10,4 @@ ANDROID_RUNTIME_ROOT=/apex/com.android.runtime ANDROID_DATA=/data ANDROID_TZDATA
 ```
 * Use the string of numbers printed by the command to register the device on your Google Account at [https://www.google.com/android/uncertified](https://www.google.com/android/uncertified)
 * Give the Google services some minutes to reflect the change, then restart waydroid
+* You may also speed up this process by going to `Settings > Apps > Google Play Services`, select `Force Stop`, then `Storage > Clear Cache`, then open any of the GAPPS
