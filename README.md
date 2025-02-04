@@ -76,7 +76,7 @@ The Android runtime environment ships with a minimal customized Android system i
 [install-system-app.md](faq/install-system-app.md)
 {% endcontent-ref %}
 
-### Development:
+### Development
 
 {% content-ref url="development/compile-waydroid-lineage-os-based-images.md" %}
 [compile-waydroid-lineage-os-based-images.md](development/compile-waydroid-lineage-os-based-images.md)
@@ -84,6 +84,12 @@ The Android runtime environment ships with a minimal customized Android system i
 
 {% content-ref url="development/manual-patch-resolution.md" %}
 [manual-patch-resolution.md](development/manual-patch-resolution.md)
+{% endcontent-ref %}
+
+### Licensing
+
+{% content-ref url="licensing/licensing.md" %}
+[licensing.md](licensing/licensing.md)
 {% endcontent-ref %}
 
 ## Reporting bugs
