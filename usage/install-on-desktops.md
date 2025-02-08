@@ -45,6 +45,11 @@ The same instructions apply to the Fedora Immutable variants, but you should use
 ```bash
 rpm-ostree install waydroid
 ```
+## openSUSE Tumbleweed/Slowroll
+
+User @runa-chin had created a detailed guide about installing Waydroid on openSUSE Tumbleweed or openSUSE Slowroll:
+
+{% embed url="https://github.com/waydroid/waydroid/discussions/1463" %}
 
 ## KISS Linux
 
@@ -63,6 +68,10 @@ sudo xbps-install -S waydroid
 ## Ubuntu/Debian and derivatives
 
 For Droidian and Ubuntu Touch, skip directly to the last step
+
+Make sure you have Wayland Session enabled (Ubuntu 22.04+)
+
+{% embed url="https://linuxconfig.org/how-to-enable-disable-wayland-on-ubuntu-22-04-desktop" %}
 
 * Install pre-requisites
 ```bash
@@ -87,7 +96,7 @@ Then start Waydroid from the applications menu.
 
 NixOS community has a wiki page for WayDroid:
 
-{% embed url="https://nixos.wiki/wiki/WayDroid" %}
+{% embed url="https://wiki.nixos.org/wiki/Waydroid" %}
 
 # Troubleshooting
 
