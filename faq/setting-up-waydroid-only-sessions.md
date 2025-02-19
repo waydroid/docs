@@ -88,3 +88,24 @@ Comment=Android OS in a container
 Exec=/usr/bin/wayfire-session.sh
 Type=Application
 ```
+
+### KWin Wayland
+
+`/usr/bin/kwin-waydroid.sh` contents:
+
+```
+#!/bin/sh
+kwin_wayland &
+sleep 5
+waydroid show-full-ui
+```
+
+`/usr/share/wayland-sessions/kwin.desktop` contents:
+
+```
+[Desktop Entry]
+Name=WayDroid on KWin
+Comment=Android OS in a container
+Exec=/usr/bin/kwin-waydroid.sh
+Type=Application
+```
