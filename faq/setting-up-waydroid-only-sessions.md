@@ -91,19 +91,12 @@ Type=Application
 
 ### KWin Wayland
 
-`/usr/bin/kwin-waydroid.sh` contents:
-
-```
-#!/bin/sh
-kwin_wayland --exit-with-session "waydroid session start"
-```
-
 `/usr/share/wayland-sessions/kwin-waydroid.desktop` contents:
 
 ```
 [Desktop Entry]
 Name=WayDroid on KWin
 Comment=Android OS in a container
-Exec=/usr/bin/kwin-waydroid.sh
+Exec=kwin_wayland --exit-with-session "waydroid-show-full-ui"
 Type=Application
 ```
