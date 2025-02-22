@@ -97,6 +97,6 @@ Type=Application
 [Desktop Entry]
 Name=WayDroid on KWin
 Comment=Android OS in a container
-Exec=kwin_wayland --exit-with-session "waydroid-show-full-ui"
+Exec=kwin_wayland --exit-with-session "waydroid show-full-ui"
 Type=Application
 ```
