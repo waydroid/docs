@@ -98,7 +98,7 @@ Type=Application
 kwin_wayland --exit-with-session "waydroid session start"
 ```
 
-`/usr/share/wayland-sessions/kwin.desktop` contents:
+`/usr/share/wayland-sessions/kwin-waydroid.desktop` contents:
 
 ```
 [Desktop Entry]
