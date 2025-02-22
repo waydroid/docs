@@ -95,9 +95,7 @@ Type=Application
 
 ```
 #!/bin/sh
-kwin_wayland &
-sleep 5
-waydroid show-full-ui
+kwin_wayland --exit-with-session && waydroid session start
 ```
 
 `/usr/share/wayland-sessions/kwin.desktop` contents:
