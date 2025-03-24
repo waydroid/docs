@@ -19,3 +19,12 @@ sudo ufw allow 53
 sudo ufw allow 67
 sudo ufw default allow FORWARD
 ```
+* **IPTABLES**
+Check if your IPTABLES it's set the FORWARD policy with DROP
+```bash
+iptables --list-rules | grep FORWARD 
+```
+If yes, set ACCEPT
+```bash
+iptables -P FORWARD ACCEPT
+```
