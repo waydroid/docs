@@ -10,7 +10,7 @@ Run the command below to get the information of various network interfaces.
 
 * **firewalld**
 ```bash
-firewall-cmd --zone=trusted --add-interface=waydroid0
+firewall-cmd --zone=trusted --add-interface=waydroid0 --permanent
 ```
 
 * **UFW** or **GUFW**
