@@ -21,3 +21,12 @@ Then verify that the target folder exists:&#x20;
 ```
 
 You can also make your own custom mount point to cater to your needs.
+
+## Mount the internal storage
+
+Alternatively you can directly mount the internal storage to a target folder on your host, using bindfs to set your user as the owners of all mounted files (original owner permissions are preserved in the source folder).
+
+```
+sudo mkdir /mnt/waydroid
+sudo bindfs --mirror=$(id -u) ~/.local/share/waydroid/data/media/0 /mnt/waydroid
+```
