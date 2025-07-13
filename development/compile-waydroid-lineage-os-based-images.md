@@ -50,6 +50,7 @@ Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building enviro
 ```text
 lineage_waydroid_arm-userdebug
 lineage_waydroid_arm64-userdebug
+lineage_waydroid_arm64_only-userdebug
 lineage_waydroid_x86-userdebug
 lineage_waydroid_x86_64-userdebug
 ```
