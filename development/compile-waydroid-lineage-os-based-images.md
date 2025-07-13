@@ -9,7 +9,7 @@ To get started with Android/LineageOS, you'll need to get familiar with [Repo](h
 To initialize your local repository using the LineageOS trees, use a command like this:
 
 ```text
-repo init -u https://github.com/LineageOS/android.git -b lineage-18.1 --git-lfs
+repo init -u https://github.com/LineageOS/android.git -b lineage-20.0 --git-lfs
 repo sync build/make
 ```
 
@@ -64,8 +64,10 @@ make vendorimage -j$(nproc --all)
 ```
 ### Image Generation From Sparse Image:
 
-The default output of the AOSP build system is an "Android Sparse Image". We need raw fileystems instead.
-From the same terminal where you just built a system and a vendor image, run:
+The output of the AOSP build system is an "Android Sparse Image"; we need raw fileystems instead.
+Starting from the `lineage-20.0` branch, the output is already a raw image.
+
+On earlier branches, from the same terminal where you just built a system and a vendor image, run:
 
 ```text
 simg2img $OUT/system.img ~/system.img
