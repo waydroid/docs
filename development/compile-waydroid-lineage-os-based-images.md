@@ -76,6 +76,16 @@ simg2img $OUT/vendor.img ~/vendor.img
 
 to obtain your target raw images at ~/system.img and ~/vendor.img
 
+### HALIUM images
+
+The official Waydroid OTA channels provide special vendor images for HALIUM systems.
+These are regular vendor images that are stripped of the Mesa GPU drivers in order to save space.
+To build a HALIUM image the same way as the official images, simply disable the `TARGET_USE_MESA` option before compiling:
+
+```text
+export TARGET_USE_MESA=false
+```
+
 ## Troubleshooting
 
 ### Local Manifest:
