@@ -23,7 +23,7 @@ Please create the files detailed by their contents using the contents below
 [Desktop Entry]
 Name=WayDroid
 Comment=Android OS in a container
-Exec=cage waydroid show-full-ui
+Exec=/usr/bin/cage waydroid show-full-ui
 Type=Application
 ```
 
