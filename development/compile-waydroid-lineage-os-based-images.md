@@ -35,7 +35,7 @@ Then we setup the local build environment:
 
 ### Patching
 
-After that is complete, we apply the Waydroid patches:
+After that is complete, we apply the Waydroid patches [using the provided script](https://github.com/waydroid/android_vendor_waydroid/blob/b2fa4643f50488eefcfd415290bcfa445752e8c9/vendorsetup.sh#L4):
 
 ```text
 apply-waydroid-patches
