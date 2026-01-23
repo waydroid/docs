@@ -65,9 +65,20 @@ panel-position=none
 
 ```
 #!/bin/sh
-weston &
-sleep 3
-konsole -e waydroid show-full-ui
+
+# Launch waydroid from an X11 session, within a 9:16
+# weston  window that vertically fills the screen
+
+# REQUIRES-PACKAGE: x11-tools (xdpyinfo)
+xdpyinfo \
+| awk '/dimensions/{gsub("x"," ",$2);print $2"\n";quit}' \
+| { read  xx yy
+    weston --width=$((yy*9/16)) --height=${yy} & }
+
+# WAYLAND_DISPLAY: Your personal value may end 
+# with a different integer
+export WAYLAND_DISPLAY=wayland-1
+waydroid show-full-ui
 ```
 
 `/usr/share/wayland-sessions/waydroid.desktop` contents:
