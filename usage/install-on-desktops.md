@@ -1,6 +1,6 @@
 # Install Instructions
 
-## Arch Linux&#x20;
+## Arch Linux
 
 Some of our friends have started putting together all the install instructions for Arch over on the arch wiki:
 
@@ -12,12 +12,6 @@ Thanks to the Postmarket community, you can also find instructions and troublesh
 
 {% embed url="https://wiki.postmarketos.org/wiki/Waydroid" %}
 
-## Zorin OS
-
-User @Aman9das has put together a detailed guide for installing Waydroid on Zorin OS:
-
-{% embed url="https://github.com/Aman9das/Waydroid_Setup_Guide" %}
-
 ## Sailfish OS
 
 A few of the contributors to sailfishos-open have put together a resource for installing Waydroid on the OS:
@@ -26,21 +20,27 @@ A few of the contributors to sailfishos-open have put together a resource for in
 
 ## Fedora
 
+### Workstation, Spins, and another variants
+
 Waydroid can be installed from the official package repository.
 
 ```bash
 sudo dnf install waydroid
 ```
 
-After installing, launch Waydroid from the applications menu and proceed with the initialization by pasting these URLs in the OTA fields:
+After installing, enter this command to create initiation on Waydroid.
 
-System OTA: `https://ota.waydro.id/system`
+```bash
+# Use this command for VANILLA images
+sudo waydroid init -s VANILLA -c https://ota.waydro.id/system -v https://ota.waydro.id/vendor -f
 
-Vendor OTA: `https://ota.waydro.id/vendor`
+# Use this command for GAPPS images
+sudo waydroid init -s GAPPS -c https://ota.waydro.id/system -v https://ota.waydro.id/vendor -f
+```
 
-### Silverblue/Kinoite/...
+### Any Atomic Variants
 
-The same instructions apply to the Fedora Immutable variants, but you should use `rpm-ostree` instead of `dnf`
+The same instructions apply to any Fedora Atomic variants, but you should use `rpm-ostree` instead of `dnf`
 
 ```bash
 rpm-ostree install waydroid
@@ -65,7 +65,7 @@ Waydroid can be installed from the official package repository; also check `/usr
 sudo xbps-install -S waydroid
 ```
 
-## Ubuntu/Debian and derivatives
+## Any Debian-based distributions (Ubuntu, Linux Mint, Zorin OS, and more)
 
 For Droidian, skip directly to the last step
 
