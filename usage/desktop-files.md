@@ -11,5 +11,5 @@ Waydroid stores .desktop files in 2 different locations;
 If for whatever reason you need to edit `Waydroid.desktop` please set it to read-only after you're done editing like so;
 
 ```
-chmod -r /usr/share/applications/Waydroid.desktop
+sudo chmod -w /usr/share/applications/Waydroid.desktop
 ```
