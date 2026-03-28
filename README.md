@@ -86,6 +86,9 @@ The Android runtime environment ships with a minimal customized Android system i
 [manual-patch-resolution.md](development/manual-patch-resolution.md)
 {% endcontent-ref %}
 
+### Help improve this page
+You may help improve this page by opening a pull request to the [docs repo](https://github.com/waydroid/docs)
+
 ### Licensing
 
 {% content-ref url="licensing/licensing.md" %}
