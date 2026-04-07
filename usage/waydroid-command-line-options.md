@@ -40,8 +40,8 @@ Usage: `waydroid init [-h] [-i IMAGES_PATH] [-f] [-c SYSTEM_CHANNEL] [-v VENDOR_
 * `-h` | `--help` : Show this help message and exit
 * `-i IMAGES_PATH` | `--images_path IMAGES_PATH` : Custom path to waydroid images (default in /var/lib/waydroid/images)
 * `-f` | `--force` : Used when resetting or using custom images added to /usr/share/waydroid-extra/images
-* `-c SYSTEM_CHANNEL` | `--system_channel SYSTEM_CHANNEL` : Custom system channel (options: OTA channel URL; default is Official OTA server)
-* `-v VENDOR_CHANNEL` | `--vendor_channel VENDOR_CHANNEL` : Custom vendor channel (options: OTA channel URL; default is Official OTA server)
+* `-c SYSTEM_CHANNEL` | `--system_channel SYSTEM_CHANNEL` : Custom system channel (options: OTA channel URL; default is Official OTA server; **NOTE:** the default doesn't work on Fedora, the option must be set explicitly)
+* `-v VENDOR_CHANNEL` | `--vendor_channel VENDOR_CHANNEL` : Custom vendor channel (options: OTA channel URL; default is Official OTA server; **NOTE:** the default doesn't work on Fedora, the option must be set explicitly)
 * `-r ROM_TYPE` | `--rom_type ROM_TYPE` : Rom type (options: "lineage", "bliss" or OTA channel URL; default is LineageOS)
 * `-s SYSTEM_TYPE` | `--system_type SYSTEM_TYPE` : System type (options: VANILLA, FOSS or GAPPS; default is VANILLA)
 
