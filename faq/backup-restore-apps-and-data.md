@@ -31,7 +31,7 @@ Successfully backed up. The backup data will be at `~/.local/share/waydroid/data
 Copy the `.SeedVaultAndroidBackup` to  `~/.local/share/waydroid/data/media/0/`
 
 ### 2. Start restore activity.
-You need to run `am start com.stevesoltys.seedvault/.restore.RestoreActivity` in shell inorder to start the restoration activity. You can do this either on `waydroid shell` or `adb shell`.
+You need to run `am start com.stevesoltys.seedvault/.restore.RestoreActivity` in the shell in order to start the restoration activity. You can do this either on `waydroid shell` or `adb shell`.
 
 ![](../.gitbook/assets/backup-restore-storage.png)
 
