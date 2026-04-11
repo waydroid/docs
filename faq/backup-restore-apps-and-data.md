@@ -13,7 +13,7 @@ Go to Settings > System > Backup > Change backup provider. And choose Seedvault,
 ![](../.gitbook/assets/backup-provider.png)
 
 ### 2. Note down passphrase
-A passphrase is shown. This is used for encrytion. It wil asked on restoration.
+A passphrase is shown. This is used for encryption. It will be required for restoration.
 
 ![](../.gitbook/assets/backup-passphrase-copy.png)
 
@@ -31,7 +31,7 @@ Successfully backed up. The backup data will be at `~/.local/share/waydroid/data
 Copy the `.SeedVaultAndroidBackup` to  `~/.local/share/waydroid/data/media/0/`
 
 ### 2. Start restore activity.
-You need to run `am start com.stevesoltys.seedvault/.restore.RestoreActivity` in shell inorder to start the restoration activity. You can this either on `waydroid shell` or `adb shell`.
+You need to run `am start com.stevesoltys.seedvault/.restore.RestoreActivity` in the shell in order to start the restoration activity. You can do this either on `waydroid shell` or `adb shell`.
 
 ![](../.gitbook/assets/backup-restore-storage.png)
 
