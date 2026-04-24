@@ -40,6 +40,10 @@ The Android runtime environment ships with a minimal customized Android system i
 [disable-on-screen-keyboard.md](faq/disable-on-screen-keyboard.md)
 {% endcontent-ref %}
 
+{% content-ref url="faq/disable-touch-sounds.md" %}
+[disable-touch-sounds.md](faq/disable-touch-sounds.md)
+{% endcontent-ref %}
+
 {% content-ref url="faq/community-projects-we-like.md" %}
 [community-projects-we-like.md](faq/community-projects-we-like.md)
 {% endcontent-ref %}
