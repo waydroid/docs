@@ -41,7 +41,7 @@ The Android runtime environment ships with a minimal customized Android system i
 {% endcontent-ref %}
 
 {% content-ref url="faq/disable-touch-sounds.md" %}
-[disable-touch-sounds](faq/disable-touch-sounds.md)
+[disable-touch-sounds.md](faq/disable-touch-sounds.md)
 {% endcontent-ref %}
 
 {% content-ref url="faq/community-projects-we-like.md" %}
