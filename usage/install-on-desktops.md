@@ -65,30 +65,50 @@ Waydroid can be installed from the official package repository; also check `/usr
 sudo xbps-install -S waydroid
 ```
 
-## Ubuntu/Debian and derivatives
+## Debian/Ubuntu and derivatives
 
-For Droidian, skip directly to the last step
-
-For Ubuntu Touch, these steps are not needed
-
-Make sure you have Wayland Session enabled (Ubuntu 22.04+)
-
+> [!NOTE]
+> Make sure you have Wayland Session enabled (Ubuntu 22.04+)
+>
 {% embed url="https://linuxconfig.org/how-to-enable-disable-wayland-on-ubuntu-22-04-desktop" %}
 
-* Install pre-requisites
-```bash
-sudo apt install curl ca-certificates -y
-```
+### Make sure Waydroid is available in your distribution:
 
-* Add the official repository
-```bash
-curl -s https://repo.waydro.id | sudo bash
-```
-If the script fails to detect your distribution, you can provide a valid option by appending `-s <DISTRO>`.
-Currently supported values are: **mantic**, **focal**, **jammy**, **kinetic**, **lunar**, **noble**, **plucky**, **questing**, **bookworm**, **bullseye**, **trixie**, **sid**
+- **Debian 14+ & Ubuntu 26.10+ and distros which are based on those**
 
-* Install waydroid
+  Waydroid is available in the official repository.
+  → Skip the repository setup and go directly to [Installation](#install-waydroid).
+
+- **Debian 13 (Trixie)**
+
+  Waydroid is available in the `backports` repository.
+  Enable backports by editing your apt source file, then update apt.
+  → Skip the third-party repo and go directly to [Installation](#install-waydroid).
+
+- **Other Debian/Ubuntu releases (older versions)**
+
+  You must enable the **third-party** Waydroid repository.
+  First, install prerequisites and add the official Waydroid repo:
+
+  ```bash
+  sudo apt install curl ca-certificates -y
+  curl -s https://repo.waydro.id | sudo bash
+  ```
+  > If the script fails to detect your distribution, append `-s <DISTRO>`.
+  > Supported values: **mantic**, **focal**, **jammy**, **kinetic**, **lunar**, **noble**, **plucky**, **questing**, **bookworm**, **bullseye**, **trixie**, **sid**
+
+- **Droidian**
+
+  Skip all the steps above and go directly to [Installation](#install-waydroid) (or follow Droidian-specific instructions).
+
+- **Ubuntu Touch**
+
+  Waydroid is installed by default. Nothing else is needed.
+
+### Install Waydroid
+
 ```bash
+sudo apt update
 sudo apt install waydroid -y
 ```
 
