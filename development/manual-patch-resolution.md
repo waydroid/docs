@@ -1,6 +1,6 @@
 # Manual Patch Resolution
 
-At the end of the `apply-waydroid-patches` script, it will show the results of how each patch applied. You will want to then make a copy of all the results of the patch scripts \(Copy and paste the contents of the terminal output into a Notepad or text document\). Each of the patches applied either resulted in "Applying", "Already applied", or "Conflicts". The only ones we want to pay attention to here are the "Conflicts", but only half of them.
+At the end of [the `apply-waydroid-patches` script](https://github.com/waydroid/android_vendor_waydroid/blob/b2fa4643f50488eefcfd415290bcfa445752e8c9/vendorsetup.sh#L4), it will show the results of how each patch applied. You will want to then make a copy of all the results of the patch scripts \(Copy and paste the contents of the terminal output into a Notepad or text document\). Each of the patches applied either resulted in "Applying", "Already applied", or "Conflicts". The only ones we want to pay attention to here are the "Conflicts", but only half of them.
 
 Some of the patches have duplicates for different vendor setups. So you will sometimes get results that look like this:
 
