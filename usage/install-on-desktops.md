@@ -1,6 +1,6 @@
 # Install Instructions
 
-## Arch Linux&#x20;
+## Arch Linux
 
 Some of our friends have started putting together all the install instructions for Arch over on the arch wiki:
 
@@ -45,6 +45,7 @@ The same instructions apply to the Fedora Immutable variants, but you should use
 ```bash
 rpm-ostree install waydroid
 ```
+
 ## openSUSE Tumbleweed/Slowroll
 
 User @runa-chin had created a detailed guide about installing Waydroid on openSUSE Tumbleweed or openSUSE Slowroll:
@@ -67,9 +68,10 @@ sudo xbps-install -S waydroid
 
 ## Debian/Ubuntu and derivatives
 
-> [!NOTE]
-> Make sure you have Wayland Session enabled (Ubuntu 22.04+)
->
+{% hint style="info" %}
+Make sure you have Wayland Session enabled (Ubuntu 22.04+)
+{% endhint %}
+
 {% embed url="https://linuxconfig.org/how-to-enable-disable-wayland-on-ubuntu-22-04-desktop" %}
 
 ### Make sure Waydroid is available in your distribution:
@@ -94,6 +96,7 @@ sudo xbps-install -S waydroid
   sudo apt install curl ca-certificates -y
   curl -s https://repo.waydro.id | sudo bash
   ```
+  
   > If the script fails to detect your distribution, append `-s <DISTRO>`.
   > Supported values: **mantic**, **focal**, **jammy**, **kinetic**, **lunar**, **noble**, **plucky**, **questing**, **bookworm**, **bullseye**, **trixie**, **sid**
 
