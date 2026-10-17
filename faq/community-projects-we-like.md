@@ -29,3 +29,9 @@ User @aditya24raj has put together an alternative install script using bash that
 The folks at BigLinux have some configuration tools that help run Waydroid on that platform:
 
 {% embed url="https://github.com/biglinux/waydroid-biglinux" %}
+
+#### xWaydroid
+
+User @P0r0ro has put together a launcher that runs Waydroid on X11 desktops (KDE X11, Xfce, Cinnamon, MATE, i3…) without a Wayland session. It installs the requirements, starts a nested Weston window, opens the full UI inside it, and cleans up when the window is closed.
+
+{% embed url="https://github.com/P0r0ro/xWaydroid" %}
